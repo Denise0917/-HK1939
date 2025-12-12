@@ -1,0 +1,274 @@
+body {
+    background-color: #111;
+    color: #eee;
+    font-family: "Monaco", "Consolas", monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+    overflow-y: scroll;
+}
+
+#game-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #111;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    /* 增加过渡动画，让显示/隐藏更平滑 */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* === 新增：隐藏 Header 的类 === */
+.header.hidden {
+    display: none; /* 彻底不显示，不占位 */
+    opacity: 0;
+}
+
+/* 输入框容器：让按钮和输入框横向排列 */
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+/* 返回按钮样式 */
+#back-btn {
+    background-color: transparent;
+    border: 1px solid transparent; /* 默认无边框 */
+    color: #68d; /* 蓝色链接风格 */
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+    transition: all 0.2s;
+}
+
+#back-btn:hover {
+    color: #8af;
+    background-color: #222;
+    border: 1px solid #444;
+}
+
+/* 输入框样式 */
+input[type="text"] {
+    background-color: transparent;
+    border: 1px solid #444;
+    color: #eee;
+    padding: 0.4em;
+    font-family: inherit;
+    font-size: inherit;
+    flex-grow: 1; /* 填满剩余空间 */
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #eee;
+    background-color: #222;
+}
+
+/* 文本颜色类 */
+.names { color: #68d; }
+.names_ii { color: #8381DF; }
+.names_iii { color: #61A4C2; }
+.names_iv { color: #D8D092; }
+
+.recent a, .recent { color: #DB709F; cursor: pointer; text-decoration: underline; }
+.act_ii a { color: #8381DF; cursor: pointer; }
+.act_iii a { color: #61A4C2; cursor: pointer; }
+.act_iv a { color: #D8D092; cursor: pointer; }
+
+.hints { color: Gray; }
+
+.myDiv {
+    padding: 10%;
+    border: 1px solid white;
+    color: WhiteSmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+a {
+    color: #68d;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* ... 原有代码 ... */
+
+/* 未读文件链接 (保持原来的亮粉色，表示新鲜/重要) */
+.recent a, .recent { 
+    color: #DB709F; 
+    cursor: pointer; 
+    text-decoration: underline; 
+}
+
+/* 新增：已读文件链接 (使用灰蓝色或暗色，表示已探索) */
+.read-link {
+    color: #6c7a89; /* 灰蓝色，比背景亮，但比高亮暗 */
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.read-link:hover {
+    color: #8af; /* 鼠标悬停变亮 */
+    text-decoration: underline;
+}
+
+
+/* ...原有代码... */
+
+/* 提示信息块样式 */
+.system-message {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #444; /* 虚线分割 */
+}
+
+/* 成功提示颜色 */
+.msg-success { color: #DB709F; } 
+/* 错误提示颜色 */
+.msg-error { color: Gray; }
+
+/* ... 原有代码 ... */
+
+/* === 新增：报纸风格样式 === */
+.newspaper-container {
+    border: 2px solid #eee;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #1a1a1a; /* 稍微区别于背景 */
+}
+
+.newspaper-header {
+    text-align: center;
+    border-bottom: 2px double #eee;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.newspaper-title {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #eee;
+}
+
+.newspaper-eng-title {
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.newspaper-date {
+    font-size: 0.9em;
+    text-align: right;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.headline-main {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #DB709F; /* 使用游戏的高亮色 */
+}
+
+.headline-sub {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.news-section {
+    margin-bottom: 15px;
+    text-indent: 2em; /* 首行缩进 */
+    text-align: justify;
+}
+
+.news-bold {
+    font-weight: bold;
+    color: #ddd;
+}
+
+/* 开始游戏链接样式 */
+.start-game-btn {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border: 1px dashed #68d;
+    color: #68d;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.start-game-btn:hover {
+    background-color: #68d;
+    color: #111;
+}
+
+/* 系统启动加载行样式 */
+.boot-line {
+    margin: 5px 0;
+    color: #6c7a89;
+}
+.boot-success { color: #4a4; } /* 绿色 */
+.boot-warning { color: #db709f; } /* 粉色 */
+
+/* ... 原有代码 ... */
+
+/* === 新增：文件类型颜色区分 === */
+
+/* 1. List (录音) - 淡蔷薇色 */
+.recent a, .recent { color: #ebbcba; text-decoration: underline; cursor: pointer; }
+.recent.read { color: #6e5958; text-decoration: none; } /* 已读变暗 */
+
+/* 2. Inbox (通讯) - 淡琥珀色 */
+.type-inbox { color: #f6c177; text-decoration: underline; cursor: pointer; }
+.type-inbox.read { color: #755b38; text-decoration: none; }
+
+/* 3. Police (档案) - 淡泡沫色 */
+.type-police { color: #9ccfd8; text-decoration: underline; cursor: pointer; }
+.type-police.read { color: #435b5e; text-decoration: none; }
+
+/* 4. Evidence (证物) - 淡薰衣草色 */
+.type-evidence { color: #c4a7e7; text-decoration: underline; cursor: pointer; }
+.type-evidence.read { color: #574a66; text-decoration: none; }
+
+/* 列表容器边框过渡 */
+.list-container {
+    margin-top: 10px;
+    border-left: 3px solid; /* 颜色由 JS 动态控制 */
+    padding-left: 15px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0) 100%); /* 淡淡的背景渐变 */
+}
+
+.list-header {
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 1px dashed #444;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
