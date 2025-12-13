@@ -484,7 +484,7 @@ const db_audio = {
 // ... 上面的内容保持不变 ...
 
     // 录音 10c：医生的焦虑 (Bedroom/Dr.An) - [10]安医生 & [1]管家
-    "01-An-10": `
+    "01-An-1-10": `
         <div style="border: 1px dashed #666; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em;">
             <p style="margin: 2px 0;"><strong>[录音文档编号]：</strong> RC-HK-1939-08-08_1950</p>
             <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼北侧客房(An's Room) - 洗手台镜后</p>
@@ -1206,5 +1206,6 @@ const db_audio = {
             <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
         </div>
     `
+
 
 };
