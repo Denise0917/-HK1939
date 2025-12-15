@@ -143,7 +143,7 @@ const audioClues = {
         "03-Living-1-10"
     ],
     "03-Living-1-10":[
-        "01-An-10",
+        "01-An-1-10",
         "01-Dining-1-3-4-5-6-7-8-9-10"
     ],
     "01-Dining-1-3-4-5-6-7-8-9-10":[
@@ -778,4 +778,5 @@ document.onkeydown = function(e) {
         debugger;
     }, 100); // 每100毫秒触发一次断点
 })();
+
 
