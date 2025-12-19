@@ -192,8 +192,172 @@ const db_evidence = {
                 【物证描述】：发现于每个客房的壁炉架上方。
             </div>
         </div>
-    `
+    `,
+    // 证物：欧文给安医生的聘书
+    "EVI-LETTER-AN": `
+        <div class="evidence-doc" style="font-family: 'Songti SC', 'SimSun', 'Times New Roman', serif; background-color: #fdfbf7; color: #2c2c2c; padding: 40px; border: 1px solid #d3d3d3; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); max-width: 550px; margin: 0 auto; background-image: linear-gradient(#fdfbf7 2px, transparent 2px); background-size: 100% 30px;">
+            
+            <div style="text-align: center; margin-bottom: 30px; border-bottom: 2px double #8b0000; padding-bottom: 15px;">
+                <h2 style="margin: 0; font-family: 'Times New Roman', serif; letter-spacing: 3px; color: #8b0000; text-transform: uppercase; font-size: 1.4em;">Soldier Island Mansion</h2>
+                <p style="margin: 5px 0 0 0; font-size: 0.8em; color: #555; letter-spacing: 1px;">HONG KONG · PRIVATE RESIDENCE</p>
+                <p style="margin: 5px 0 0 0; font-size: 0.9em; font-weight: bold; color: #333;">兵头洲公馆 · 私人寓所</p>
+            </div>
+
+            <div style="text-align: right; margin-bottom: 25px; font-size: 0.9em; font-family: 'Times New Roman', serif;">
+                <p>2nd August, 1939</p>
+            </div>
+
+            <div style="font-size: 1.05em; line-height: 2.0; text-align: justify;">
+                <p><strong>安世昌 医生 钧鉴：</strong></p>
+
+                <p>久闻大名。</p>
+
+                <p>近日在香港会所（The Hong Kong Club）与几位从伦敦归来的老友闲谈，言语间皆对阁下的精湛医术推崇备至，称您为治疗“妇人神经郁结之症”的圣手。</p>
+
+                <p>实不相瞒，内人近来深受神经衰弱之苦。或许是因为这兵头洲的海风太盛，又或许是岛上过于清净，她总是疑神疑鬼，精神状态令我甚为担忧。</p>
+
+                <p>素闻安医生不仅医术高明，更兼具绅士风度。故特修书一封，恳请阁下拨冗莅临寒舍小住几日。</p>
+
+                <p>为免内人起疑抗拒，还请阁下<strong>务必暂且隐去医生身份</strong>，仅以<strong>“欧文家旧友”</strong>的名义登岛度假。只需在日常闲谈相处中，暗中观察其病情，待确诊后再行商议治疗方案。</p>
+
+                <p>随信附上汇丰银行本票一张，面额为<strong>壹佰坚尼（100 Guineas）</strong>，权作舟车之资与定金。事成之后，另有重谢。</p>
+
+                <p>静候佳音。</p>
+                <br>
+            </div>
+
+            <div style="margin-top: 20px; padding-left: 55%;">
+                <p style="margin: 0; font-size: 0.9em;">您诚挚的，</p>
+                <div style="font-family: 'Brush Script MT', 'Times New Roman', cursive; font-size: 1.8em; color: #000080; margin: 10px 0; transform: rotate(-2deg);">
+                    U.N. Owen
+                </div>
+                <p style="margin: 0; font-size: 0.9em; font-weight: bold;">尤纳·纳尔逊·欧文</p>
+            </div>
+
+            <div style="margin-top: 40px; font-size: 0.7em; color: #666; border-top: 1px dotted #999; padding-top: 5px;">
+                <p>渡轮将于八月八日下午从西贡码头出发，请持此信登船。</p>
+            </div>
+
+        </div>
+    `,
+    // 证物：欧文给法官的邀请信 (打字机风格)
+    "EVI-LETTER-WARGRAVE": `
+        <div class="evidence-doc" style="
+            background-color: #fdf8e4; 
+            color: #333; 
+            padding: 50px; 
+            font-family: 'Courier New', Courier, monospace; 
+            border: 1px solid #c0b090; 
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2); 
+            max-width: 550px; 
+            margin: 0 auto; 
+            line-height: 1.6;
+            position: relative;
+            background-image: repeating-linear-gradient(#fdf8e4 0px, #fdf8e4 24px, #f5f0db 25px);
+        ">
+            
+            <div style="text-align: center; margin-bottom: 40px; border-bottom: 2px solid #2c3e50; padding-bottom: 15px;">
+                <h1 style="font-family: 'Times New Roman', serif; font-size: 26px; letter-spacing: 5px; margin: 0; color: #2c3e50; text-transform: uppercase; font-weight: bold;">The Peninsula</h1>
+                <p style="font-family: 'Times New Roman', serif; font-size: 12px; margin: 5px 0 0 0; letter-spacing: 3px; color: #555;">KOWLOON · HONG KONG</p>
+            </div>
+
+            <div style="text-align: right; margin-bottom: 40px; font-weight: bold;">
+                July 30th, 1939
+            </div>
+
+            <div style="text-align: justify; font-size: 15px; letter-spacing: 0.5px;">
+                <p><strong>尊敬的 劳伦斯·沃格雷夫 爵士：</strong></p>
+
+                <p>冒昧致信，敬请海涵。</p>
+
+                <p>虽然阁下与我素未谋面，但我们拥有一位共同的老朋友 —— <strong>康斯坦丝·卡尔明顿夫人 (Lady Culmington)</strong>。</p>
+
+                <p>卡尔明顿夫人目前正做客于我在兵头洲的私人寓所。昨日茶叙时，她提及阁下近期深受风湿痛楚的困扰，且似乎在寻找一处清静之地。</p>
+
+                <p>恕我直言，兵头洲正是阁下所需的最佳疗养地。这里远离尘嚣，没有九龙那种令人窒息的喧闹。卡尔明顿夫人极力向我推荐阁下，并渴望在这座海岛上与老友重逢。</p>
+
+                <p>内子与我亦对阁下仰慕已久。若能邀请阁下莅临寒舍小住几日，实乃荣幸。</p>
+
+                <p>随信附上行程安排。</p>
+                <br>
+            </div>
+
+            <div style="margin-top: 40px; padding-left: 50%;">
+                <p>您诚挚的，</p>
+                
+                <div style="font-family: 'Brush Script MT', cursive; font-size: 28px; color: #000080; transform: rotate(-5deg); margin: 15px 0;">
+                    U.N. Owen
+                </div>
+
+                <p style="text-transform: uppercase; font-weight: bold;">U.N. OWEN</p>
+            </div>
+
+            <div style="position: absolute; bottom: 15px; left: 20px; font-size: 10px; color: #999; font-family: sans-serif; opacity: 0.6;">
+                THE PENINSULA STATIONERY
+            </div>
+
+        </div>
+    `,
+    // 证物：白绮梅收到的信 (名为旧识，实为诱饵)
+    // 证物：白绮梅收到的信 (浅水湾酒店信笺)
+    "EVI-LETTER-BAI": `
+        <div class="evidence-doc" style="
+            background-color: #fdfbf7; 
+            color: #1a1a1a; 
+            padding: 50px; 
+            font-family: 'Courier New', Courier, monospace; 
+            border: 1px solid #d4c5a3; 
+            box-shadow: 5px 5px 20px rgba(0,0,0,0.15); 
+            max-width: 520px; 
+            margin: 0 auto; 
+            line-height: 1.8;
+            position: relative;
+        ">
+            
+            <div style="text-align: center; margin-bottom: 45px; border-bottom: 3px double #8b4513; padding-bottom: 15px;">
+                <h1 style="font-family: 'Times New Roman', serif; font-size: 24px; letter-spacing: 2px; color: #8b4513; margin: 0; text-transform: uppercase;">The Repulse Bay Hotel</h1>
+                <p style="font-family: 'Times New Roman', serif; font-size: 11px; margin: 5px 0 0 0; letter-spacing: 4px; color: #555;">HONG KONG</p>
+            </div>
+
+            <div style="text-align: right; margin-bottom: 30px; font-weight: bold; font-size: 14px;">
+                August 2nd, 1939
+            </div>
+
+            <div style="text-align: justify; font-size: 14px;">
+                <p><strong>亲爱的 白小姐 (Miss Bai)：</strong></p>
+
+                <p>数年前在跑马地的那次相遇，至今令我难以忘怀。</p>
+
+                <p>彼时，您那<strong>[高尚的道德标准]</strong>与<strong>[坚定的原则]</strong>，如同一盏明灯，照亮了那间狭窄的教会公寓。在这个日益浮躁的殖民地，像您这样能够坚守传统、并不惜一切代价维护体面的女性，实在是凤毛麟角。</p>
+
+                <p>如今，我在兵头洲购置了一处产业，打算经营一家只接待“正派人士”的家庭旅馆。但我发愁的是，若没有一位德高望重的人坐镇，恐怕很难立下规矩。</p>
+
+                <p>因此，我冒昧致信，恳请您务必赏光来此度夏。我向您保证，这次邀请是<strong>[完全免费] (Free of Charge)</strong> 的。</p>
+
+                <p>我知道，您一向生活简朴，为了维持那份身为淑女的体面，往往不得不精打细算。但在兵头洲，您不必再为此操心。这里有最好的厨师和最新鲜的食材，您完全可以卸下生活的重担，尽情享受您应得的优待。</p>
+
+                <p>请把它当作老朋友的一点心意。我们需要您，正如这个堕落的世界需要道德的标尺。</p>
+                <br>
+            </div>
+
+            <div style="margin-top: 40px; padding-left: 45%;">
+                <p>您忠实的，</p>
+                
+                <div style="font-family: 'Brush Script MT', cursive; font-size: 28px; color: #000080; transform: rotate(-5deg); margin: 15px 0;">
+                    U.N. Owen
+                </div>
+                
+                <p style="font-size: 12px; font-weight: bold; text-transform: uppercase;">(MISS U.N. OWEN)</p>
+            </div>
+
+            <div style="position: absolute; bottom: 20px; left: 0; width: 100%; text-align: center; font-size: 10px; color: #bba; letter-spacing: 1px;">
+                THE REPULSE BAY · HONG KONG
+            </div>
+
+        </div>
+    `,
     // 在这里继续添加以 EVI- 开头的证物...
+
 
 
 

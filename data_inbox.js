@@ -80,10 +80,6 @@ const db_inbox = {
                 
                 <p><strong>【已索引的修复片段列表】：</strong></p>
 
-                <div style="border: 2px solid #d65d0e; padding: 10px; margin-bottom: 15px; text-align: center; color: #d65d0e; font-weight: bold; letter-spacing: 2px;">
-    -- CHAPTER I : THE NIGHT OF JUDGMENT --<br>
-    ( 第一章：审判之夜 )
-</div>
             <div style="border: 1px dashed #555; padding: 15px; background-color: #111; color: #98971a; line-height: 1.8;">
 
                 <div style="margin: 0;">01-Wei-2-6</div>

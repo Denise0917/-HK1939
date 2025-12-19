@@ -185,7 +185,105 @@ const audioClues = {
     "07-Living-1-3-4-5-6-7-8-10":[
         "03-Corridor-3-4-5-6-7-8-10",
         "03-Dining-1"
-    ]
+    ],
+    "02-Servant-2-Mystery":[
+        "03-Servant-1"
+    ],
+    "03-Servant-1":[
+        "02-An-1-10"
+    ],
+    "02-An-1-10":[
+        "04-Servant-1-10"
+    ],
+    "04-Servant-1-10":[
+        "04-Kitchen-1",
+        "04-Corridor-6-10"
+    ],
+    "04-Corridor-6-10":[
+        "04-Dining-6-10"
+    ],
+    "02-Wei-6":[
+        "04-Corridor-6-10"
+    ],
+    "02-Bao-3":[
+        "03-Tang-3-7"
+    ],
+    "02-Bao-3":[
+        "03-Tang-3-7"
+    ],
+    "02-Lu-7":[
+        "03-Tang-3-7"
+    ],
+    "03-Tang-3-7":[
+        "08-Living-7-8"
+    ],
+    "04-Kitchen-1":[
+        "05-dining-1-3-4-5-6-7-8-10"
+    ],
+    "05-dining-1-3-4-5-6-7-8-10":[
+        "03-An-3-5-6-7-8-10",
+        "02-Wargrave-3-5-6-7-8-10"
+    ],
+    "03-An-3-5-6-7-8-10":[
+        "02-Wargrave-3-5-6-7-8-10"
+    ],
+    "02-Wargrave-3-5-6-7-8-10":[
+        "03-Wei-3-6-7-8-10"
+    ],
+    "03-Wei-3-6-7-8-10":[
+        "04-Wei-6-7"
+    ],
+    "04-An-10":[
+        "05-Corridor-3-7-10"
+    ],
+    "05-Corridor-3-7-10":[
+        "06-Dining-1-3-7",
+        "04-Tang-1-3-7-10"
+    ],
+    "04-Tang-1-3-7-10":[
+        "06-Corridor-3-7-10",
+        "01-Store-1" 
+    ],
+    "05-Terrace-4":[
+        "06-Terrace-1-3-4-5-6-7-10"
+    ],
+     "06-Terrace-1-3-4-5-6-7-10":[
+        "09-Living-1-3-4-5-6-7-10"
+    ],
+     "09-Living-1-3-4-5-6-7-10":[
+        "07-Dining-5-6",
+        "03-Ma-1-3-7-10"  
+    ],
+     "03-Ma-1-3-7-10":[
+        "05-Kitchen-1" 
+    ],
+     "05-Kitchen-1":[
+        "08-Dining-1-3-4-5-6-7-10" 
+    ],
+     "08-Dining-1-3-4-5-6-7-10":[
+        "10-Living-1-3-4-5-6-7-10" 
+    ],
+    "10-Living-1-3-4-5-6-7-10":[
+        "03-Wargrave-3-5",
+        "06-Kitchen-1-7",
+        "11-Living-3-5-10",
+        "09-Dining-4-6"
+    ],
+    "09-Dining-4-6":[
+        "10-Dining-1-3-4-5-6-7-10"
+    ],
+    "10-Dining-1-3-4-5-6-7-10":[
+        "07-Corridor-3-4-5-6-7-10",
+        "11-Dining-1"
+    ],
+    "11-Dining-1":[
+        "02-Store-1"
+    ],
+    "07-Corridor-3-4-5-6-7-10":[
+        "02-Bai-4"
+    ],
+    
+    
     
 };
 
@@ -475,7 +573,7 @@ function renderCategoryList(type, animate = true) {
 
     // 设置标题
     switch(type) {
-        case 'list': title = "现场录音 (AUDIO) 第一章：审判之夜"; cssClass = "recent"; break;
+        case 'list': title = "现场录音 (AUDIO)"; cssClass = "recent"; break;
         case 'inbox': title = "内部通讯 (INBOX)"; cssClass = "type-inbox"; break;
         case 'police': title = "死者档案 (POLICE)"; cssClass = "type-police"; break;
         case 'evidence': title = "现场证物 (EVIDENCE)"; cssClass = "type-evidence"; break;
@@ -500,6 +598,8 @@ function renderCategoryList(type, animate = true) {
                 "Dining": "【 一楼：餐厅 】",
                 "Terrace": "【 一楼：露台 】",
                 "Mahjong": "【 一楼：麻将房 】",
+                "Kitchen": "【 一楼：厨房 】",
+                "Store": "【 一楼：储物间 】",
                 "Servant": "【 一楼：佣人房 】",
                 "Corridor": "【 二楼：走廊 】",
                 "Bao": "【 二楼：客房 】",
@@ -510,9 +610,7 @@ function renderCategoryList(type, animate = true) {
                 "Lu": "【 二楼：客房 】",
                 "Ma": "【 二楼：客房 】",
                 "Tang": "【 二楼：客房 】",
-                "An": "【 二楼：浴室 】"
-                
-             
+                "An": "【 二楼：客房 】"
             };
 
             // 2. 分组
@@ -648,8 +746,83 @@ function renderPassage(key, animate = true) {
                 </div>
                 
                 <br>
-                <div style="color: #d65d0e; border: 1px solid #d65d0e; padding: 10px; display: inline-block; font-size: 0.8em;">
-                    TO BE CONTINUED IN CHAPTER II
+                <div 
+                onclick="processCommand('02-Servant-2-Mystery')"
+                class="next-chapter-btn"
+                style="
+                    color: #d65d0e; 
+                    border: 1px solid #d65d0e; 
+                    padding: 15px 30px; 
+                    display: inline-block; 
+                    font-size: 0.9em; 
+                    cursor: pointer; 
+                    transition: all 0.3s;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                "
+                onmouseover="this.style.backgroundColor='#d65d0e'; this.style.color='#000';"
+                onmouseout="this.style.backgroundColor='transparent'; this.style.color='#d65d0e';"
+            >
+                TO BE CONTINUED IN CHAPTER II ▶
+            </div>
+            </div>
+            <style>
+                @keyframes fadeIn {
+                    from { opacity: 0; transform: translateY(20px); }
+                    to { opacity: 1; transform: translateY(0); }
+                }
+            </style>
+        `;
+    }
+
+    // 第二章结算页面逻辑
+    if (key === "02-Store-1") {
+        html += `
+            <br><br>
+            <div style="border-top: 2px dashed #444; margin-top: 20px; padding-top: 20px;"></div>
+            
+            <div class="chapter-end-screen" style="
+                background-color: #0d0d0d; 
+                border: 1px solid #b22222; 
+                padding: 30px; 
+                text-align: center; 
+                font-family: 'Courier New', monospace; 
+                animation: fadeIn 3s ease-in;
+                box-shadow: 0 0 20px rgba(178, 34, 34, 0.2);
+            ">
+                <div style="font-size: 3em; color: #b22222; letter-spacing: 5px; margin-bottom: 10px; text-shadow: 0 0 10px #500;">
+                    CHAPTER II<br>COMPLETE
+                </div>
+                <div style="font-size: 1.2em; color: #888; margin-bottom: 30px; letter-spacing: 2px;">
+                    第二章：困兽之斗 - 完
+                </div>
+
+                <div style="text-align: left; width: 85%; margin: 0 auto; color: #666; font-size: 0.85em; line-height: 1.8; border-left: 2px solid #333; padding-left: 15px;">
+                    <p>> Assessing Weather Conditions... [CRITICAL/TYPHOON]</p>
+                    <p>> Power Grid Status... <span style="color: #c00;">[OFFLINE]</span></p>
+                    <p>> Survivor Count... [7/10]</p>
+                    <p>> Archiving User Session... [OK]</p>
+                    <p>> <span style="color: #ccc;">暴风雨中的进度已保存。</span></p>
+                </div>
+
+                <hr style="border: 0; border-top: 1px solid #444; margin: 25px 0;">
+
+                <div style="color: #a00; font-style: italic; font-weight: bold; line-height: 1.6;">
+                    "七个小戏俑，砍柴乐悠悠；<br>
+                    斧起头落地，七个只剩六。"
+                </div>
+                
+                <br><br>
+                <div style="
+                    color: #fff; 
+                    background-color: #b22222; 
+                    padding: 8px 15px; 
+                    display: inline-block; 
+                    font-size: 0.9em; 
+                    letter-spacing: 1px;
+                    border-radius: 2px;
+                ">
+                    NEXT: 第三章 [血色黎明]
                 </div>
             </div>
             <style>
@@ -778,5 +951,4 @@ document.onkeydown = function(e) {
         debugger;
     }, 100); // 每100毫秒触发一次断点
 })();
-
 
