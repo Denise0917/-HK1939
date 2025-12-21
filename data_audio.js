@@ -2539,7 +2539,7 @@ const db_audio = {
     // 录音 58：烛影摇红 (Dining Room) - [1]老罗
     "11-Dining-1": `
         <div style="border: 1px dashed #666; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em;">
-            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅(Kitchen) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅(Dining) - 水晶吊灯中央灯座内侧</p>
             <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：中（受电流干扰和风雨声影响）</p>
         </div>
         <div style="text-align: justify;">
@@ -2629,4 +2629,5 @@ const db_audio = {
     `
 
     // ... 下接 50-DI-SEVEN-SOLDIERS ...
+
 };
