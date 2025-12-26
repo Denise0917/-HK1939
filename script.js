@@ -991,8 +991,8 @@ if (key === "09-Wei-6-7") {
             <hr style="border: 0; border-top: 1px solid #444; margin: 30px 0;">
 
             <div style="color: #aaa; font-style: italic; margin-bottom: 30px; font-size: 1.1em;">
-                "四个小戏俑，出海去逞能；<br>
-                <span style="color: #b22222;">青鱼吞落肚</span>，四个只剩三..."
+                "四个小戏俑，出海去捕鱼；<br>
+                <span style="color: #b22222;">红鱼骗了人</span>，四个只剩三..."
             </div>
             
             <div 
@@ -1146,4 +1146,5 @@ document.onkeydown = function(e) {
         debugger;
     }, 100); // 每100毫秒触发一次断点
 })();
+
 
