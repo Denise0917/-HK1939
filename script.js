@@ -60,10 +60,14 @@ const systemData = {
         <p><strong>R.C.P.D 终端操作手册 v3.1</strong></p>
         <p>欢迎, 调查员。</p>
         <hr style="border-color: #444; margin: 10px 0;">
-        <p><span class="type-inbox">[Inbox]</span> 内部通讯文件</p>
-        <p><span class="recent">[List]</span> 现场录音档案</p>
-        <p><span class="type-police">[Police]</span> 死者档案</p>
-        <p><span class="type-evidence">[Evidence]</span> 现场证物</p>
+        
+        <p><span class="type-inbox" onclick="processCommand('inbox')" style="cursor:pointer; text-decoration:underline;">[Inbox]</span> 内部通讯文件</p>
+        
+        <p><span class="recent" onclick="processCommand('list')" style="cursor:pointer; text-decoration:underline;">[List]</span> 现场录音档案</p>
+        
+        <p><span class="type-police" onclick="processCommand('police')" style="cursor:pointer; text-decoration:underline;">[Police]</span> 死者档案</p>
+        
+        <p><span class="type-evidence" onclick="processCommand('evidence')" style="cursor:pointer; text-decoration:underline;">[Evidence]</span> 现场证物</p>
         
         <br>
         <p>输入 <strong>list</strong> / <strong>inbox</strong> / <strong>police</strong> / <strong>evidence</strong> 查看对应模块。</p>
@@ -220,7 +224,7 @@ const audioClues = {
     "04-Kitchen-1":[
         "05-Dining-1-3-4-5-6-7-8-10"
     ],
-    "05-Dining-1-3-4-5-6-7-8-10":[
+    "05-dining-1-3-4-5-6-7-8-10":[
         "03-An-3-5-6-7-8-10",
         "02-Wargrave-3-5-6-7-8-10"
     ],
@@ -282,9 +286,109 @@ const audioClues = {
     "07-Corridor-3-4-5-6-7-10":[
         "02-Bai-4"
     ],
-    
-    
-    
+    "03-Lu-7":[
+        "01-Woodshed-1"
+    ],
+    "05-An-10":[
+        "08-Corridor-3-5-6-7-10"
+    ],
+    "05-Wei-6":[
+        "08-Corridor-3-5-6-7-10"
+    ],
+    "03-Bao-3-7":[
+        "08-Corridor-3-5-6-7-10"
+    ],
+    "04-Wargrave-5-7":[
+        "08-Corridor-3-5-6-7-10"
+    ],
+    "12-Living-3-4-5-6-7-10":[
+        "12-Dining-3-4-5-6-7-10"
+    ],
+    "12-Dining-3-4-5-6-7-10":[
+        "02-Woodshed-3-4-5-6-7-10"
+    ],
+    "02-Woodshed-3-4-5-6-7-10":[
+        "03-Store-3-7",
+        "07-Kitchen-4-6"
+    ],
+     "07-Kitchen-4-6":[
+        "14-Dining-3-4-5-6-7-10"
+    ],
+    "14-Dining-3-4-5-6-7-10":[
+        "13-Living-5-10",
+        "08-Kitchen-3-5-6-7"
+    ],
+    "08-Kitchen-3-5-6-7":[
+        "01-Basement-3-7"
+    ],
+    "13-Living-5-10":[
+        "04-Store-7-10"
+    ],
+    "01-Basement-3-7":[
+        "04-Store-7-10"
+    ],
+    "04-Store-7-10":[
+        "15-Dining-3-5-6-7-10"
+    ],
+    "15-Dining-3-5-6-7-10":[
+        "03-Bai-3-6-7"
+    ],
+    "03-Bai-3-6-7":[
+        "04-Bao-3",
+        "04-Lu-7",
+        "09-Corridor-3-5-6-7-10"
+    ],
+    "04-Bao-3":[
+        "09-Corridor-3-5-6-7-10"
+    ],
+    "04-Lu-7":[
+        "09-Corridor-3-5-6-7-10"
+    ],
+    "09-Corridor-3-5-6-7-10":[
+        "06-Wei-3-5-6-7-10",
+        "05-Bao-3-5-6-7-10",
+        "05-Wargrave-3-5-6-7-10",
+        "05-Lu-3-5-6-7-10",
+        "06-An-3-5-6-7-10"
+    ],
+    "06-An-3-5-6-7-10":[
+        "05-Lu-3-5-6-7-10"
+    ],
+    "05-Lu-3-5-6-7-10":[
+        "05-Bao-3-5-6-7-10"
+    ],
+    "05-Bao-3-5-6-7-10":[
+        "05-Wargrave-3-5-6-7-10"
+    ],
+    "05-Wargrave-3-5-6-7-10":[
+        "06-Wei-3-5-6-7-10"
+    ],
+    "06-Wei-3-5-6-7-10":[
+        "09-Kitchen-3-5-6-7-10"
+    ],
+    "09-Kitchen-3-5-6-7-10":[
+        "17-Dining-3-5-6-7-10"
+    ],
+    "17-Dining-3-5-6-7-10":[
+        "18-Dining-3-5-6-7-10"
+    ],
+    "18-Dining-3-5-6-7-10":[
+        "19-Dining-3-6-7-10"
+    ],
+    "19-Dining-3-6-7-10":[
+        "07-Wei-6",
+        "20-Dining-3-7-10"
+    ],
+    "20-Dining-3-7-10":[
+        "08-Wei-3-6-7-10"
+    ],
+    "08-Wei-3-6-7-10":[
+        "14-Living-3-6-7-10"
+    ],
+    "14-Living-3-6-7-10":[
+        "11-Corridor-3-6-7-10"
+    ],
+   
 };
 
 
@@ -485,6 +589,7 @@ backBtn.addEventListener('click', function() {
 });
 
 // --- 指令处理 ---
+// --- 指令处理 ---
 function processCommand(input) {
     const args = input.trim().split(/\s+/);
     const command = args[0].toLowerCase();
@@ -509,20 +614,29 @@ function processCommand(input) {
     else if (command === 'name') {
         handleNameCommand(args);
     }
-    else if (storyData[input] || storyData[input.toUpperCase()]) {
-        let key = storyData[input] ? input : input.toUpperCase();
-        
-        if (!isFileKnown(key)) {
-            addFileToCache(key);
-        }
-        identifyAndSetListType(key);
-
-        renderPassage(key);
-        state.currentView = "file_view";
-        saveGame();
-    }
     else {
-        refreshCurrentViewWithMsg(`<p class="msg-error">系统错误: 指令 "${input}" 无效。</p>`);
+        // 1. 获取数据库中所有的文件名(Key)
+        const allKeys = Object.keys(storyData);
+        
+        // 2. 查找匹配项（忽略大小写）
+        const matchKey = allKeys.find(key => key.toLowerCase() === input.toLowerCase());
+
+        // 3. 如果找到了匹配的文件
+        if (matchKey) {
+            let key = matchKey; // 使用数据库中正确的大小写文件名（例如 "03-Living-1"）
+            
+            if (!isFileKnown(key)) {
+                addFileToCache(key);
+            }
+            identifyAndSetListType(key);
+
+            renderPassage(key);
+            state.currentView = "file_view";
+            saveGame();
+        }
+        else {
+            refreshCurrentViewWithMsg(`<p class="msg-error">系统错误: 指令 "${input}" 无效。</p>`);
+        }
     }
 }
 
@@ -813,7 +927,10 @@ function renderPassage(key, animate = true) {
                 </div>
                 
                 <br><br>
-                <div style="
+                <div 
+                onclick="processCommand('03-Lu-7')"
+                class="next-chapter-btn"
+                style="
                     color: #fff; 
                     background-color: #b22222; 
                     padding: 8px 15px; 
@@ -833,11 +950,89 @@ function renderPassage(key, animate = true) {
             </style>
         `;
     }
+    // 假设 'key' 是当前正在查看/播放的物品ID
+if (key === "09-Wei-6-7") {
+    // 在录音文档的末尾，追加一个“章节结算”界面
+    html += `
+        <br><br>
+        <div style="border-top: 2px dashed #444; margin-top: 20px; padding-top: 20px;"></div>
+        
+        <div class="chapter-end-screen" style="
+            background-color: #050505; 
+            border: 1px solid #b22222; /* 这里的边框改为暗红色，呼应'血色黎明' */
+            padding: 40px; 
+            text-align: center; 
+            font-family: 'Courier New', monospace; 
+            animation: fadeIn 2.5s ease-in;
+            box-shadow: 0 0 20px rgba(178, 34, 34, 0.2);
+            margin-bottom: 50px;
+        ">
+            <div style="font-size: 3.5em; color: #b22222; letter-spacing: 6px; margin-bottom: 10px; text-shadow: 0 0 15px #b22222; font-weight: bold;">
+                CHAPTER III<br>COMPLETE
+            </div>
+            
+            <div style="font-size: 1.4em; color: #888; margin-bottom: 40px; border-bottom: 1px solid #333; display: inline-block; padding-bottom: 10px;">
+                第三章：血色黎明 - 完
+            </div>
+
+            <div style="text-align: left; width: 85%; margin: 0 auto; color: #666; font-size: 0.9em; line-height: 2.0;">
+                <p>> Timeline Sync: 21:30, August 10th, 1939</p>
+                <p>> Status Check: <span style="color: #b22222;">CRITICAL (极度危险)</span></p>
+                <p>> Subject Analysis: 
+                    <span style="text-decoration: line-through;">No.10 </span> [MISSING], 
+                    No.6 [UNSTABLE], 
+                    No.7  [ARMED]，
+                    No.3  [ARMED] 
+                </p>
+                <p>> <span style="color: #fff;">WARNING WARNING WARNING</span></p>
+                <p>> WARNING: 终局阶段即将开始...</p>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #444; margin: 30px 0;">
+
+            <div style="color: #aaa; font-style: italic; margin-bottom: 30px; font-size: 1.1em;">
+                "四个小戏俑，出海去逞能；<br>
+                <span style="color: #b22222;">青鱼吞落肚</span>，四个只剩三..."
+            </div>
+            
+            <div 
+                class="next-chapter-btn"
+                style="
+                    color: #fff; 
+                    background-color: #b22222;
+                    border: 1px solid #b22222; 
+                    padding: 18px 40px; 
+                    display: inline-block; 
+                    font-size: 1.1em; 
+                    cursor: pointer; 
+                    transition: all 0.3s;
+                    font-weight: bold;
+                    letter-spacing: 3px;
+                    box-shadow: 0 0 10px rgba(178, 34, 34, 0.5);
+                "
+                onmouseover="this.style.backgroundColor='#800000'; this.style.borderColor='#800000'; this.style.transform='scale(1.05)';"
+                onmouseout="this.style.backgroundColor='#b22222'; this.style.borderColor='#b22222'; this.style.transform='scale(1)';"
+            >
+                ENTER THE FINALE ▶
+            </div>
+            
+            <p style="margin-top: 15px; font-size: 0.8em; color: #444;">[ 终章：孤绝之岛 ]</p>
+        </div>
+        
+        <style>
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(30px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        </style>
+    `;
+}
     // ============================================================
 
     // 3. 渲染到屏幕
     printToScreen(html, animate);
 }
+
 
 function getPassageHTML(key) {
     let content = storyData[key];
@@ -951,5 +1146,4 @@ document.onkeydown = function(e) {
         debugger;
     }, 100); // 每100毫秒触发一次断点
 })();
-
 

@@ -2539,7 +2539,7 @@ const db_audio = {
     // 录音 58：烛影摇红 (Dining Room) - [1]老罗
     "11-Dining-1": `
         <div style="border: 1px dashed #666; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em;">
-            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅(Dining) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅(Kitchen) - 水晶吊灯中央灯座内侧</p>
             <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：中（受电流干扰和风雨声影响）</p>
         </div>
         <div style="text-align: justify;">
@@ -2572,7 +2572,7 @@ const db_audio = {
             <p><span style="color: #666;">[00:55] [翻开书页的声音]</span></p>
             <p>[4] 耶和华是我的牧者，我必不致缺乏……（The Lord is my Shepherd, I shall not want...）</p>
             <p>[4] 他使我躺卧在青草地上，领我在可安歇的水边……他使我的灵魂苏醒……</p>
-            <p><span style="color: #666;">[00:30] [窗外一道炸雷响起：“轰隆！！”]</span></p>
+            <p><span style="color: #666;">[01:31] [窗外一道炸雷响起：“轰隆！！”]</span></p>
             <p>[4] 为自己的名引导我走义路！是正义之路！我没走错！我是正义的！</p>
             <p>[4] 我虽然行过……行过死荫的幽谷（Valley of the shadow of death）……</p>
             <p>[4] 也不怕遭害……因为你与我同在……</p>
@@ -2626,8 +2626,1597 @@ const db_audio = {
             <p><span style="color: #666;">[01:10] [呼吸声逐渐变得沉重、均匀。紧接着，一阵浑浊的、断断续续的鼾声响起（呼——噜——）]</span></p>            
             <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
         </div>
-    `
+    `,
+    // ==================================================================================
+    // CHAPTER 3: BLOOD RED DAWN (血色黎明)
+    // ==================================================================================
 
-    // ... 下接 50-DI-SEVEN-SOLDIERS ...
+    // 录音 61：缺失的晨锣 (Bedroom/Lu) - [7]陆伯达
+    "03-Lu-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼西侧客房(Lu's Room) - 梳妆镜后方缝隙</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（前半段只有风雨声，后段有人声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：窗外的风雨声依然狂暴]</span></p>
+            <p><span style="color: #666;">[00:07] [一声闷响]</span></p>
+            <p>[7] 呼……谁？</p>
+            <p>[7] 妈的……才六点一刻。天怎么这么黑。刚刚是什么声音？</p>
+            <p>[7] 这风打得像拆楼一样。看来今天船也是没指望了。</p>
+            <p>[7] 再睡会儿吧。锁了门，手里有枪，心里不慌。</p>
+            <p><span style="color: #666;">[弹簧的吱嘎声，很快传来了沉重的呼吸声]</span></p>
+            <p><span style="color: #666;">[06:30] [漫长的空白期。只有持续不断的风雨声和鼾声。]</span></p>        
+            <p>[7] <span style="color: #666;">[138:37]</span> 嗯……几点了？</p>
+            <p>[7] 九点半？！</p>
+            <p>[7] 我居然训过龙了？怎么一点声音都没听见？</p>
+            <p>[7] 不对啊……那个老罗怎么没敲锣？</p>
+            <p>[7] 妈的，五脏庙都在造反了。这老东西，敢偷懒。</p>
+            <p><span style="color: #666;">[143:35] [衣物的摩擦声。金属咔嚓的声音。脚步声]</span></p>
+            <p>[7] <span style="color: #666;">[开门声（咔哒、咔哒）]</span></p>
+            <p>[7] 真安静啊……安静得让人发毛。</p>
+            <p><span style="color: #666;">[脚步声离开房间]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 61-BE-LU-WAKEUP ...
 
+    // 录音 62：冷灶无烟 (Bedroom/Blore) - [7]陆伯达 & [3]鲍乐
+    "03-Bao-3-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼北侧客房(Bao's Room) - 梳妆台镜框后方缝隙</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含门锁开启声与对话）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：房间内原本只有沉重的鼾声。突然，传来急促的敲门声：砰！砰！砰！]</span></p>
+            <p>[3] 谁？！……是谁在外面？</p>
+            <p>[7] 是我，陆伯达。</p>
+            <p><span style="color: #666;">[00:21] [一阵拖拉椅子的声音。接着是拔开插销的声音（咔哒），最后是转动门把手的声音（咔嚓）。]</span></p>
+            <p>[3] 你有病啊？大清早拍门拍得像报丧一样。</p>
+            <p>[7] 啧啧，鲍Sir，我看你这精神头不错啊。</p>
+            <p>[7] 足足睡了十二个钟头吧？看来俗话说的对，‘平生不作亏心事，半夜不怕鬼叫门’。你心里倒是挺干净的。</p>
+            <p>[3] 有事快说。</p>
+            <p>[7] 今天早上有人叫过你吗？我是说……你听到过其他人的声音吗？</p>
+            <p>[7] 你知道现在几点了吗？</p>
+            <p>[3] 嗯？……九点四十五？！</p>
+            <p>[3] 哇，搞错没？我居然大觉瞓到现在？</p>
+            <p>[3] 那个死老鬼呢？罗福？他居然没敲锣叫我们？</p>
+            <p>[7] 你想找他？那你只能去问空气了。</p>
+            <p>[3] 你这话什么意思？</p>
+            <p>[7] 我的意思是——罗福不见了。人间蒸发。</p>
+            <p>[7] 他不在自己房间。厨房里的灶头是冷的，水壶也是空的，连滴滚水都没有。整个一楼冷冷清清，像个墓地。</p>
+            <p>[3] 撞鬼！这老东西跑哪去了？难道出去了？</p>
+            <p>[3] 等我两分钟。我得穿上衣服……我们得去问问其他人。这事儿不对劲。</p>
+            <p>[7] 我在走廊等你。快点。</p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 62-BE-BLORE-WAKEUP ...
+
+    // 录音 63：法官的晨起 (Bedroom/Judge) - [7]陆伯达 & [5]沃格雷夫爵士
+    "04-Wargrave-5-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[录音文档编号]：</strong> RC-HK-1939-08-10_0940</p>
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼客房(Wargrave's Room) - 床头台灯底座</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（环境安静，对话清晰）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：有别于其他房间的嘈杂，这间房里非常安静。门被轻轻叩响：笃、笃、笃]</span></p>
+            <p>[7] 早晨啊，爵士。您醒了吗？</p>
+            <p><span style="color: #666;">[00:10] [开门声]</span></p>
+            <p>[5] <span style="color: #666;">[声音沙哑]</span> 进来吧。门没锁。</p>            
+            <p>[7] 看样子您睡得不错，大老爷。</p>
+            <p>[5] 马马虎虎。年纪大了，想睡个整觉不容易。怎么，几点了？</p>
+            <p>[7] 快十点了。</p>
+            <p>[5] 十点？这可真是稀奇。我们的罗福管家今天怎么没叫我们？</p>
+            <p>[7] 这就是问题所在，爵士。罗福不见了。</p>
+            <p>[5] 不见了？</p>
+            <p>[7] 是的。鲍乐那个肥佬正在隔壁穿裤子，气得直跳脚。我刚去看了罗福的房间，空的。</p>
+            <p>[7] 厨房里也是冷锅冷灶，连壶热水都没烧。这老家伙就像是人间蒸发了一样。</p>
+            <p>[5] 没有生火……没有烧水……这不像是他会做的事。</p>
+            <p>[5] 罗福是个尽职的管家，甚至是有些刻板。除非他被迫离开，或者……无法离开。</p>
+            <p>[7] 您是说他偷懒跑去躲起来了？还是……</p>
+            <p>[5] 我们都知道这是什么意思，陆先生。</p>
+            <p>[5] 看来我们的第四个小戏俑……出事了。</p>
+            <p>[5] 请稍等片刻。我要换衣服。</p>
+            <p>[7] 行，您慢慢来。我们在走廊等您。</p>
+            <p><span style="color: #666;">[01:39] [陆伯达退出了房间，轻轻带上了门]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 63-BE-WARGRAVE-WAKEUP ...
+
+    // 录音 64：双重失踪 (Corridor) - [ALL]全体人员
+    "08-Corridor-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼走廊（Corridor） - 壁灯底座内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（多人对话，略显嘈杂）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：走廊里传来几扇门陆续打开的声音]</span></p>
+            <p>[10] 怎么了？一大早嘈喧巴闭的？出什么事了？</p>
+            <p>[7] 罗福不见了。</p>
+            <p>[7] 我去过他以前睡的那个房间，还有下面储物间。鬼影都冇只（连个鬼影都没有）。但是床铺是乱的，有人睡过。而且洗脸架上，那把刮胡刀、海绵、还有肥皂，全都沾了水，还是湿的。</p>
+            <p>[7] 这说明他已经起床了，而且还很从容地刮了脸。毫无疑问。</p>
+            <p>[6] 他会不会……会不会在哪儿躲着？等我们起床？</p>
+            <p>[7] 我亲爱的韦小姐，他去哪儿都有可能。或者已经被那个欧文先生带去西贡游水了。</p>
+            <p>[7] 但我奉劝大家一句：从现在开始，千祈唔好散开。我们要齐上齐落，直到找到罗福。</p>
+            <p>[10] 想必他是跑到岛上其他地方去了……也许是去海边看有没有船？</p>
+            <p>[3] 等等……那个宗教狂呢？白小姐去哪儿了？</p>
+            <p>[3] 这么大动静她都没出来骂人？这又是演哪出戏？</p>
+            <p><span style="color: #666;">[02:45] [急促的脚步声走向西侧客房。用力的拍门声：砰！砰！]</span></p>
+            <p>[3] 喂！白小姐！起床了！太阳晒屁股了！</p>
+            <p><span style="color: #666;">[一阵沉默]</span></p>
+            <p>[7] 让开。</p>
+            <p><span style="color: #666;">[猛地转动门把手（咔嚓）]</span></p>
+            <p>[6] 门没锁？</p>
+            <p>[10] 没人……房间是空的！</p>
+            <p>[10] 床也没有睡过的痕迹……不，稍微坐了一下。她整晚都没睡吗？</p>
+            <p>[5] 两个人都失踪了？这情况比我想象的还要糟糕。</p>
+            <p>[7] 别在楼上瞎猜了。走，一起下楼。搜遍每一个角落。我就不信他们能飞了。</p>
+            <p><span style="color: #666;">[01:10] [杂乱的脚步声开始下楼]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 64-CO-GATHERING ...
+
+    // 录音 65：雨衣与早餐 (Living Room) - [4]白绮梅 & [ALL]全体人员
+    "12-Living-3-4-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 西式主客厅(Living Room) - 古董座钟内侧麦克风</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含风雨声与开关门声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：杂乱的脚步声，回荡在空旷的客厅里。古董钟依旧在滴答作响。]</span></p>
+            <p>[3] 我就不信了。这屋子就这么大，两个活人还能凭空消失？</p>
+            <p>[6] 也许他们躲在……</p>
+            <p><span style="color: #666;">[00:29] [客厅传来一声巨大的开门声]</span></p>
+            <p>[6] 啊！谁？！</p>
+            <p>[7] 谁在那儿！出来！</p>
+            <p><span style="color: #666;">[关门声，根据声音推测是正门的声音]</span></p>
+            <p>[4] 喊什么喊。大清早的。</p>
+            <p>[10] 白小姐？！你……你出去了？</p>
+            <p>[4] 我去海边看了看。海水涨得很高，浪头打到了防波堤上。我看今天也不会有船出海了。</p>
+            <p>[3] 你一个人在岛上到处乱转？白小姐，你是不是痴咗线？</p>
+            <p>[3] 现在有个杀人狂在到处游荡，你难道不觉得自己做了件最危险的傻事吗？还是说你想找死？</p>
+            <p>[4] 你放心，鲍警官。我很小心。而且主会保佑无辜的人。我不像某些人那样心里有鬼，自然不怕半夜走路。</p>
+            <p>[3] 哼，死鸭子嘴硬。</p>
+            <p>[3] 那你看见罗福了吗？那个老东西也不见了。</p>
+            <p>[4] 罗福？没有。今天早晨我还没见过他。怎么？他还没准备早餐吗？</p>
+            <p>[5] <span style="color: #666;">[远处传来的声音]</span> 不，恰恰相反，白小姐。</p>
+            <p>[5] 哈……你们过来看。</p>
+            <p>[5] 早餐桌子已经摆好了，整整齐齐。难怪我们找不到他。</p>
+            <p>[7] 摆好了？</p>
+            <p>[5] 这就意味着，他一大早就起来干活了。直到……某种东西打断了他。</p>
+            <p>[7] 走，过去看看。</p>
+            <p><span style="color: #666;">[02:55] [众人的脚步声远去]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 65-LI-BRENT-RETURN ...
+
+    // 录音 66：少掉的第六个 (Dining Room) - [ALL]全体人员
+    "12-Dining-3-4-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 餐厅（Dining Room） - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含餐具碰撞声与人声尖叫）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：杂乱的脚步声走进餐厅。]</span></p>
+            <p>[3] 真是神了……你看，刀叉、盘子，全都摆得整整齐齐。连咖啡壶的垫子都放好了。</p>
+            <p>[10] 但是没有人。没有咖啡，也没有面包。</p>
+            <p>[5] 看来罗福在做完这些准备工作之后，就被某种事情打断了。或者被叫走了。</p>
+            <p>[7] 被谁叫走？只有那个隐形人了。</p>
+            <p><span style="color: #666;">[00:25] [突然，一声短促的吸气声。紧接着是布料摩擦的声音]</span></p>
+            <p>[6] 看！……看那儿！爵士！看！</p>
+            <p>[5] 哎哟……韦小姐，你抓痛我的胳膊了。怎么了？</p>
+            <p>[6] 那些小戏俑！那些戏俑！</p>
+            <p>[6] 又少了一个！你们数数！只剩下六个了！六个！</p>
+            <p><span style="color: #666;">[一阵沉默。只有急促的喘息声]</span></p>
+            <p>[6] 七个小戏俑，举斧去砍柴……</p>
+            <p>[6] 砍柴！……是砍柴啊！</p>
+            <p>[6] 砍柴砍断头……七个只剩六。！</p>
+            <p>[10] 砍柴？斧头？上帝啊……</p>
+            <p>[3] 斧头？这屋里哪里有斧头？</p>
+            <p>[7] 柴房（Woodshed）！我想起来了！</p>
+            <p>[7] 昨天我去找罗福的时候，他在柴房劈柴。我看见那里有一把大斧头，靠在墙角！</p>
+            <p>[3] 那个柴房在哪？</p>
+            <p>[7] 就在厨房后面，走！快去！</p>
+            <p><span style="color: #666;">[03:51] [众人慌乱的脚步声。椅子被撞倒的声音。]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 66-DI-MISSING-FIGURE ...
+
+    // 录音 67：劈柴与头颅 (Woodshed) - [1]老罗
+    "01-Woodshed-1": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 柴房(Woodshed) - 悬挂工具架后方</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含极度大声的撞击声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：柴房内回荡着有劈柴声。背景是淅淅沥沥的雨声]</span></p>
+            <p>[1] 嘿！……哈！</p>
+            <p><span style="color: #666;">[物体裂开的声音（哗啦）]</span></p>            
+            <p>[1] 最后一把……劈完这几块大的就去生火。</p>
+            <p><span style="color: #666;">[00:35] [门轴转动声（吱呀——）。风雨声突然变大了]</span></p>
+            <p>[1] 谁啊？……早餐还没好呢，还得等一阵。</p>                                    
+            <p><span style="color: #666;">[一声巨大的碎裂声（咔嚓——噗嗤！）。与劈木头的声音截然不同]</span></p>            
+            <p><span style="color: #666;">[00:48] [沉重的物体倒下的声音（扑通）]</span></p>            
+            <p><span style="color: #666;">[01:00] [哐当]</span></p>            
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 63-BE-WARGRAVE-WAKEUP ...
+
+    // 录音 64：门后的颤抖 (Bedroom/Wei) - [6]韦若兰
+    "05-Wei-6": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼东侧客房(Wei's Room) - 壁炉台汉白玉石狮底座内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（室内安静，包含隔墙人声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：窗外的风雨声依然持续，但似乎比之前稍微小了一些。]</span></p>            
+            <p>[6] 九点了？……怎么这么安静？</p>                        
+            <p>[6] 没人……外面一点声音都没有。难道……难道他们都死了？</p>
+            <p>[6] 只剩下我一个了？不……不……我不能出去。如果是那个欧文在外面等着……</p>            
+            <p><span style="color: #666;">[35:27] [偶尔的啜泣声和祈祷声。]</span></p>
+            <p><span style="color: #666;">[37:35] [敲门声（咚咚咚），模糊的男声]</span></p>
+            <p>[6] 是陆先生！还有……那是鲍警官的声音！</p>            
+            <p>[6] 太好了……还有人活着。他们都醒了。</p>            
+            <p>[6] 我得出去。不能一个人待在这儿。</p>            
+            <p>[6] <span style="color: #666;">[拖拽椅子的声音（滋啦——嘎吱——）]</span></p>
+            <p>[6] 呼……这椅子真沉。</p>
+            <p><span style="color: #666;">[拔开插销（咔哒）。转动把手（咔嚓）。开门声]</span></p>                                    
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 64-BE-WEI-MORNING-FEAR ...
+
+    // 录音 64-A：医生的晨躁 (Bedroom/An) - [10]安医生
+    "05-An-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼北侧客房(An's Room) - 洗手台镜后</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（伴随水流声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：弹簧压缩发出的咯吱声。]</span></p>
+            <p>[10] 呼……呼……又是那个手术室……全是血……</p>
+            <p>[10] 九点二十？见鬼，我居然睡了这么久？</p>            
+            <p><span style="color: #666;">[吱呀——哗啦啦。水流声]</span></p>
+            <p>[10] 清醒点，清醒点！</p>
+            <p>[10] 该死……手又在抖了。手震成这样，怎么拿手术刀？</p>            
+            <p>[10] 得吃一片……定定惊。</p>                        
+            <p><span style="color: #666;">[09:35] [模糊的说话声]</span></p>            
+            <p>[10] 是那个姓陆的……他在叫那个警察。</p>
+            <p>[10] 还好，他们还活着。这意味着昨晚是平安夜？</p>                        
+            <p>[10] 出去看看那个管家到底在搞什么鬼。</p>
+            <p><span style="color: #666;">[09:50] [开门声]</span></p>
+            <p>[10] 怎么了？一大早嘈喧巴闭的？出什么事了？</p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+// ... 上接 67-WS-CHOPPED-UP-FLASHBACK ...
+
+    // 录音 68：马蜂与耳光 (Woodshed) - [ALL]全体人员
+    "02-Woodshed-3-4-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 柴房(Woodshed) - 悬挂工具架后方</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高</p>
+        </div>
+
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：杂乱急促的脚步声冲进房间。紧接着是一片倒吸冷气的声音]</span></p>
+            <p>[7] 我顶……来晚了。</p>
+            <p>[3] 死得透透的。脑袋都被劈开两半了。</p>
+            <p><span style="color: #666;">[00:29] [沙沙沙的声音]</span></p>
+            <p>[3] 希望能提取到指纹……哪怕是半个……</p>   
+            <p>[3] 没指纹。把柄被擦得干干净净，就像新的一样。</p>
+            <p><span style="color: #666;">[00:45] [一声尖锐、高亢的笑声]</span></p>
+            <p>[6] 哈哈！哈哈哈！</p>
+            <p>[7] 韦小姐？你怎么了？</p>
+            <p>[6] 这个岛上养蜜蜂吗？啊？谁能告诉我，我们到哪儿去采蜂蜜啊？哈哈哈哈！</p>
+            <p>[3] 你在胡说什么？是不是吓傻了？</p>
+            <p>[6] 别这样看着我！你们是不是觉得我痴咗线？我的问题多正常啊！</p>
+            <p>[6] 蜜蜂！蜜蜂啊！难道你们没听过那首童谣吗？卧室里都挂着呢！那是让我们学的！</p>
+            <p>[6] 七个小戏俑，举斧去砍柴；砍柴砍断头，七个只剩六……</p>            
+            <p>[6] 然后呢？六个小戏俑，玩耍如孩童；毒蜂叮一口，六个只剩五。</p>
+            <p>[6] 所以我才问啊！这座岛上养蜜蜂了吗？是不是特别有意思？哈哈哈！太有意思了——</p>
+            <p><span style="color: #666;">[02:20] [急促的脚步声。布料摩擦声。紧接着是一声清脆响亮的声音]</span></p>
+            <p style="font-size: 1em; text-align: center; font-weight: bold;">“啪！！”</p>            
+            <p><span style="color: #666;">[足足过了一分钟的安静]</span></p>
+            <p>[6] 谢谢你，安医生。我现在没事了。</p>
+            <p>[3] 哇……你下手真重，医生。</p>
+            <p>[10] 不得不这样。不打醒她，她就没法清醒过来。</p>
+            <p>[6] 既然老罗死了，没人做饭了。</p>
+            <p>[6] 我和白小姐来做早餐吧。你们能帮忙把没沾血的柴火搬过来吗？我们得先生火，大概要四十五分钟才能把水煲滚。</p>
+            <p>[3] 这女人……变脸比翻书还快。</p>
+            <p>[7] 行了，鲍乐。搭把手。我们把老罗抬回房间去。总不能让他一直躺在这堆木屑里。</p>
+            <p><span style="color: #666;">[05:55] [脚步声逐渐离开柴房]</span></p>
+            <p>[10] 太明显了。凶手是偷偷溜到他身后的。当时他正弯着腰劈柴，凶手只需要抡起这把大斧头，甚至不用瞄准，一下就能……</p>         
+            <p>[5] 这种伤口……干这件事需要很大力气吗，医生？</p>
+            <p>[10] 不，不需要大力士。一个普通女人的力气就够了，如果您想问的是这个。</p>
+            <p>[10] 韦小姐有运动员的体格，这易如反掌。至于白小姐……虽然看着体弱，但这类女人往往有一股‘蛮劲儿’。况且，凡是发癫的人，都会有一种不知从何而来的巨大力量。</p>
+            <p>[5] 嗯。</p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 70-WS-DISCOVERY (原 68) ...
+
+    // 录音 71：疯女人的逻辑 (Store Room) - [7]陆伯达 & [3]鲍乐
+    "03-Store-3-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼储物间(Store Room) - 货架顶层内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：中（环境封闭，有回声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：一声闷响（扑通）]</span></p>
+            <p>[3] 呼……这老东西，看着瘦，死沉死沉的。</p>
+            <p>[3] 随便找块帆布盖上吧。这伤口……真不想多看第二眼。</p>
+            <p><span style="color: #666;">[帆布摩擦的声音（沙沙）。随后是一阵短暂的沉默]</span></p>
+            <p>[3] 陆先生，你估我想紧乜（你猜我在想什么）？</p>
+            <p>[7] 有屁就放，鲍Sir。何必让我猜谜语。</p>
+            <p>[3] 我在想刚才那两个女人的反应。</p>
+            <p>[3] 以前我在差馆的时候，听过上海那边的一桩案子。一对老夫妻被人用斧头砍死，家里除了一个老姑婆，没别人。那女人看起来斯斯文文，还很受人尊敬，大家都觉得不可能是她。</p>
+            <p>[3] 但是……我刚才一看到那把斧子，就想起这件事来了。</p>
+            <p>[3] 那个韦小姐，她吓得发疯，大喊大叫，还要安医生给她一巴掌才能清醒。这才是正常人见到死尸的反应，对不对？</p>
+            <p>[3] 但是那个姓白的……简直冷静得离谱。</p>
+            <p>[7] 你想说她是那个上海杀手？</p>
+            <p>[3] 你看她现在的样子！还淡定地去做饭。</p>
+            <p>[3] 你要问我的话，我觉得这女人绝对是痴线的。这种老姑婆性格最古怪，特别是她这种满口上帝的宗教狂。她把自己当成替天行道的工具了！</p>
+            <p>[3] 你知道昨天我们在客厅吓得要死的时候，她在房里干什么吗？她在读《圣经》！</p>
+            <p>[7] 但这只能证明她是个性格孤僻的老处女，鲍乐。这不能当做杀人证据。</p>
+            <p>[3] 那她一个人跑出去怎么解释？披着雨衣，一个人去海边看浪？</p>
+            <p>[7] 罗福是一大早就被杀的。她没必要在外面待那么久。如果她是凶手，杀完人完全可以回来睡个回笼觉，没人会发现。</p>
+            <p>[3] 你没明白我的意思，陆生。</p>
+            <p>[3] 假如她是个正常女人，这种时候根本就不敢一个人在外面乱转。除非……她压根儿就不知道什么叫害怕。或者说，她知道外面没危险，因为凶手就是她自己。</p>
+            <p>[7] 嗯……这点你倒是说得有几分道理。这种心理素质，确实不像常人。</p>
+            <p>[7] 怎么，幸好你现在不再怀疑我了？昨天你盯着我的眼神可不太友善。</p>
+            <p>[3] 咳……一开始我是有点怀疑你。毕竟你有枪，人又……那什么。但现在我也想通了，凶手是谁不是明摆着的吗？就是那个疯婆子。</p>
+            <p>[3] 之前多有得罪，陆兄你别放在心上。</p>
+            <p>[7] 放心，我这人虽然记仇，但对死人通常很大度。</p>
+            <p>[3] 啊？你什么意思？</p>
+            <p>[7] 我的意思是……我觉得你活不长了，鲍Sir。</p>
+            <p>[3] 说什么鬼话！我告诉你，我当年在街头火拼的时候……</p>
+            <p>[7] 你最大的问题就是不动脑子。你只会按着以前那套死规矩想事情。</p>
+            <p>[7] 而那个欧文，不管他是谁，是个头脑极度灵活的疯子。他肯定在盘算着怎么让你这种一本通书读到老的人中圈套。</p>
+            <p>[3] 那你呢？你就一定能活？</p>
+            <p>[7] 我？我是烂命一条。什么危险场面我没见过？丛林里的陷阱、敌人的刺刀……我都闯过来了。</p>
+            <p>[7] 我有自己的一套办法。我不信那一套逻辑，我只信我的直觉和手里的枪。反正这次，我也一样能搞定。</p>
+            <p><span style="color: #666;">[07:17] [皮靴声远去]</span></p>
+            <p>[3] 嚣张什么……‘死剩种’（死剩的种）……</p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 71-ST-THEORY ...
+
+    // 录音 72：焦糊的面包 (Kitchen) - [6]韦若兰 & [4]白绮梅
+    "07-Kitchen-4-6": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼厨房(Kitchen) - 灶台上方排气扇内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：中（背景有排气扇运行声和煎炸声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：老式排气扇正在艰难地转动，发出持续的低频嗡嗡声]</span></p>
+            <p>[4] 韦小姐！你看那多士！都‘燶’（糊）了！</p>
+            <p>[6] 啊！……对不起，白小姐！我……我走神了。</p>
+            <p>[6] 真糟糕……黑得像木炭一样。我真是‘鸡手鸭脚’（笨手笨脚）的。</p>
+            <p>[4] 刮掉黑的地方还能吃。现在不是浪费粮食的时候。</p>            
+            <p>[6] 白小姐……你真犀利。</p>
+            <p>[4] 什么？</p>
+            <p>[6] 我是说……你真冷静。刚才那样的场面……老罗那样……你居然还能像没事人一样在这煎蛋。</p>
+            <p>[4] 我从小接受的家教就是这样。遇事要处变不惊，不能像个市井泼妇一样大惊小怪。</p>
+            <p>[4] 慌乱解决不了问题。只有弱者才会用尖叫来掩饰无能。</p>
+            <p>[6] 从小就受这样的约束……难怪……</p>
+            <p>[6] 可是……你难道不害怕吗？</p>
+            <p>[6] 我是说……下一个可能就是我们中的任何一个。你难道……不怕死吗？</p>            
+            <p>[4] 主一向心有定数。生死祸福，都是祂的安排。</p>
+            <p>[4] 你必不怕黑夜的惊骇，或是白日飞的箭……（Thou shalt not be afraid for the terror by night; nor for the arrow that flieth by day...）</p>
+            <p>[4] 现在是白天，韦小姐。只要心中无愧，我不会有一丝恐惧。</p>
+            <p>[4] 反正……谁也别想离开这个岛。这是审判之地……</p>
+            <p><span style="color: #666;">[23:17] [持续的滋滋声]</span></p>
+            <p>[6] 白小姐？你说什么？</p>
+            <p>[4] 我说——早餐都准备好了。别发愣了。</p>
+            <p>[4] 把那些盘子端到餐厅去。男人们该饿了。</p>
+            <p><span style="color: #666;">[24:55] [脚步声远去]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 72-KI-BREAKFAST ...
+
+    // 录音 73：精英联盟 (Dining Room) - [10]安医生 & [5]沃格雷夫爵士
+    "13-Dining-5-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅(Dining Room) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（背景安静，有咖啡杯碰撞声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：偶尔传来瓷勺搅动咖啡的清脆声响（叮、叮）。]</span></p>
+            <p>[10] 爵士……关于昨天的事，我觉得我欠你一句对唔住。</p>
+            <p>[5] 哦？医生何出此言？</p>
+            <p>[10] 就是……我当时太冲动了，不该当众揭露你的病情，说你……。那太失礼了，我不该拿病人的隐私做文章。</p>
+            <p>[5] 没关系，医生。在这种绝境下，大家的神经都绷得很紧，容易擦枪走火。你也只是在尽你的专业职责。我很理解。</p>
+            <p>[10] 谢谢您的宽宏大量。我就知道您是讲道理的人。</p>
+            <p><span style="color: #666;">[00:55] [椅子腿在地板上摩擦的刺耳声音（吱——）]</span></p>
+            <p>[10] 爵士，我想听听您的看法……您怎么看其他人？</p>
+            <p>[5] 你是问我对凶手的推测？坦白说，我还没形成确切的看法。线索太少，也是言之尚早。</p>
+            <p>[10] 但我有看法。爵士，我不怕直说——我信不过他们任何一个人。</p>
+            <p>[10] 你看那个鲍乐，以前就是个收黑钱的差佬，脑子里只有蛮力，而且还没什么脑子。</p>
+            <p>[10] 那个陆伯达就更不用说了，根本就是个‘烂仔’（流氓/暴徒），手里有枪，眼里没法。这种人为了活命什么都干得出来。</p>
+            <p>[10] 至于女人们……韦小姐已经被吓得‘神神化化’（神经兮兮）了，随时可能崩溃。而那个白绮梅，哼，那个宗教狂根本就是个疯子。</p>
+            <p>[10] 但是……你和我，爵士。</p>
+            <p>[10] 我们不一样。我们是受过高等教育的人，我们有敏锐的头脑，我们是这里真正的聪明人。我们属于同一个阶层。</p>
+            <p>[10] 我觉得……我们应该团结一致。只有我们联手，才能从这群疯子和杀手中间活下来。</p>
+            <p><span style="color: #666;">[03:01] [短暂的沉默]</span></p>
+            <p>[5] 很有道理，医生。在这个混乱的局面里，理智确实是我们唯一的武器。</p>
+            <p>[5] 好啊。我接受你的提议。我们互相照应。</p>
+            <p>[10] 那我们接下来……</p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 72-KI-BREAKFAST ...
+
+    // 录音 73：虚伪的早餐 (Dining Room) - [ALL]全体人员
+    "14-Dining-3-4-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅(Dining Room) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（前期安静，后期有突发高音）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [只有刀叉轻轻触碰瓷盘的声音（叮、叮）。]</span></p>
+            <p>[6] 白小姐？我给您斟（倒）点咖啡吧？</p>
+            <p>[4] 有劳了，韦小姐。只要半杯。谢谢。</p>
+            <p>[7] 鲍Sir，你要不要来点火腿？这块看起来煎得不错。</p>
+            <p>[3] 唔该。我自己来就行。</p>
+            <p>[5] 我想再来一片多士。那边那个盘子里的。</p>
+            <p>[10] 给您，爵士。要加点橘子酱吗？</p>
+            <p>[5] 多谢。一点点就好。</p>            
+            <p>[5] 咳咳。</p>
+            <p>[5] 诸位，我想我们还是聚在一起谈谈眼下的情况比较好。</p>
+            <p>[5] 半小时后在客厅碰头，怎么样？</p>
+            <p>[3] 嗯。我没意见。</p>
+            <p>[7] 同意。反正外面也没处去。</p>
+            <p>[6] 那我来收拾桌子吧。</p>
+            <p>[7] 这么多盘子你一个人拿不了。我和鲍乐帮你把餐具拿到厨房去。</p>
+            <p>[6] 谢谢你们。陆先生，鲍先生。</p>
+            <p><span style="color: #666;">[01:00] [另一把椅子被推开的声音。接着是一声沉闷的撞击声]</span></p>
+            <p>[4] 哦，上帝啊……</p>
+            <p>[5] 你怎么了，白小姐？</p>
+            <p>[4] 真是不好意思……我想帮韦小姐收拾，可不知道为什么，我突然头晕得厉害（Dizzy）……天旋地转的。</p>
+            <p>[10] 头晕？嗯？这也难怪。</p>
+            <p>[10] 可能是因为刚才看到尸体受惊过度引起的反应。我是医生，我可以给你开点儿镇静——</p>
+            <p>[4] 不要！！</p>
+            <p><span style="color: #666;">[这一声大喊在安静的餐厅里产生了回音。收拾盘子的声音都停了]</span></p>
+            <p>[10] 呃……我只是……</p>
+            <p>[4] 我不要你的药！我什么东西也不吃！……什么也不要！</p>
+            <p>[10] 那就随你便吧，白小姐。</p>
+            <p>[4] 我就想在这儿安静地坐一会儿。等这阵头晕过去。</p>
+            <p>[6] 那……好吧。您好好休息。我们去厨房了。</p>
+            <p><span style="color: #666;">[01:45] [盘子堆叠的声音（哗啦）。众人杂乱的脚步声离开餐厅]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 74-DI-ALLIANCE ...
+
+    // 录音 75：黑暗降临 (Kitchen) - [ALL]全体人员 & [5]沃格雷夫爵士
+    "08-Kitchen-3-5-6-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼厨房（Kitchen） - 灶台上方排气扇内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含电机停止运转声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：排气扇的嗡嗡声依旧（呜——）。瓷器发出稀里哗啦的碰撞声]</span></p>
+            <p>[3] 丢呢度（扔这儿）就行了。韦小姐，麻烦你了。</p>
+            <p>[7] 怎么，鲍Sir，你不打算展现一下绅士风度，帮女士洗洗碗？</p>
+            <p>[3] 讲笑咩？这种‘手作仔’（家务活）是女人的事。我有更重要的事情要想。</p>
+            <p>[6] 没关系，放着吧。我来洗。反正我也需要找点事做，不然脑子会乱想。</p>
+            <p><span style="color: #666;">[03:25] [背景中那持续不断的排气扇声音出现了一个明显的降调（呜……唔…………），然后彻底停止]</span></p>
+            <p>[6] 啊！……怎么了？灯灭了？</p>
+            <p>[3] 排气扇也停了。该死，停电了。</p>
+            <p>[7] 看来我们的罗福管家死前没来得及给发电机加油。</p>
+            <p>[3] 真是屋漏偏逢连夜雨！这下真的乌灯黑火了。</p>
+            <p>[7] 别抱怨了。走，鲍乐。我们去地库（Basement）看看发电机。也许还能重新发动起来。你有打火机吗？</p>
+            <p>[3] 有。走吧。这里太黑了，看着心里发毛。</p>
+            <p><span style="color: #666;">[04:19] [脚步声离开]</span></p>
+            <p>[6] <span style="color: #666;">[只有水龙头的流水声]</span> 这下……真的只剩我一个了……</p>
+            <p><span style="color: #666;">[11:09] [门口传来缓慢的脚步声，伴随着手杖点击地砖的声音（笃、笃）]</span></p>
+            <p>[6] 谁？！</p>
+            <p>[5] 别怕，韦小姐。是我。</p>
+            <p>[6] 爵士？……您怎么来了？</p>
+            <p>[5] 我看那两位绅士似乎不太懂得体贴女士。所以我来看看能不能帮上忙。</p>
+            <p>[5] 我来帮你吧。别看我这样，其实我还挺喜欢做家务的。</p>
+            <p>[6] 您？法官大人做家务？</p>
+            <p>[5] 是的。当双手忙碌的时候，大脑反而能平静下来。这有助于思考。</p>
+            <p>[6] 您说得对……听着水声，确实让人安神。</p>
+            <p>[6] 啊，对了。我就回来。</p>
+            <p>[5] 好。你去吧。这里交给我。</p>
+            <p><span style="color: #666;">[13:35] [一个脚步声快步离开厨房。]</span></p>            
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 75-KI-BLACKOUT ...
+
+    // 录音 76：烛光陷阱 (Living Room) - [10]安医生 & [5]沃格雷夫爵士
+    "13-Living-5-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 西式主客厅(Living Room) - 古董座钟内侧麦克风</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（前段有对话，中段突发停电噪音）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：古董钟沉闷的滴答声（滴——答——）。窗外的雷声在远处轰鸣。客厅里只有两个人的呼吸声]</span></p>
+            <p>[5] 稍安勿躁，医生。</p>
+            <p>[10] 我坐不住。爵士，你不觉得这就叫坐以待毙吗？我们就像两只困在笼子里的老鼠，等着那只猫什么时候心情好来抓我们。</p>
+            <p>[5] 如果你是老鼠，那谁是猫呢？</p>
+            <p>[10] 谁知道！也许那只猫就在墙壁后面听着我们说话！</p>
+            <p>[10] 说真的，那帮人去厨房送几个盘子要这么久？那个鲍乐和陆伯达不会是在密谋什么吧？</p>
+            <p>[5] 也许只是在检查有没有剩下的食物。毕竟，这也是生存的关键。</p>
+            <p><span style="color: #666;">[03:45] [“滋滋”的电流声。紧接着是一声轻微的爆裂声“噗”。]</span></p>                        
+            <p>[10] 啊！……怎么回事？！黑晒嘅？！</p>
+            <p>[10] 爵士？！爵士你在哪？！别不出声！</p>
+            <p>[5] 冷静点，医生。我就在这儿。别慌。</p>
+            <p>[5] 看来我们的发电机终于耗尽了最后一滴油。或者是……有人把它关了。</p>
+            <p>[10] 关了？那就是那个疯子干的！</p>
+            <p>[5] 我想起来了，之前我看见储物间的货架顶层有一大包白蜡烛。应该就在门口左手边。</p>
+            <p>[5] 干脆就点蜡烛吧。</p>
+            <p>[10] 储物间？……那是放罗福尸体的地方啊！你要我去跟死人拿蜡烛？</p>
+            <p>[5] 死人不会伤人，医生。活人才会。现在没有光，我们才是待宰的羔羊。</p>
+            <p>[5] 既然我们结盟了，总得有人去拿物资。你年轻，腿脚快，去把蜡烛拿来。</p>
+            <p>[10] 好……好吧。我去拿。这一屋子我就信您一个。</p>
+            <p>[5] 去吧。快去快回。</p>
+            <p><span style="color: #666;">[06:07] [跑步声离开客厅，向走廊深处跑去。]</span></p>
+            <p><span style="color: #666;">[雷声轰鸣。]</span></p>            
+            <p><span style="color: #666;">[手杖点击地板的声音（笃、笃）。]</span></p>
+            <p><span style="color: #666;">[脚步声远去]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 76-LI-BLACKOUT-FULL ...
+
+    // 录音 77：枯竭的油箱 (Basement) - [7]陆伯达 & [3]鲍乐
+    "01-Basement-3-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 地库（Basement） - 配电箱上方</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：中（有回声，伴随打火机声音）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：沉重且带有回声的脚步声。周围有滴水声（滴……滴……）]</span></p>
+            <p>[3] 妈的……这下面怎么比上面还冷。简直就是条阴司路。</p>
+            <p>[3] 陆生，你的火机能不能举高点？我这里什么都看不见。</p>
+            <p><span style="color: #666;">[打火机砂轮摩擦的声音（滋——咔嚓）。]</span></p>
+            <p>[7] 省着点用，鲍Sir。油也不多了。小心脚下，别踩到老鼠。</p>
+            <p>[3] 那台机器就在前面。那个大家伙。</p>
+            <p><span style="color: #666;">[02:20] [金属外壳被敲击的声音（当、当）]</span></p>
+            <p>[7] 听这声音……不像是有油的样子。</p>
+            <p><span style="color: #666;">[金属摩擦声（吱嘎——）。]</span></p>
+            <p>[7] 果然。空的。彻底干塘了。</p>
+            <p>[7] 那个死鬼罗福！他不是说能顶十天半个月吗？怎么才两天就没了？</p>
+            <p>[3] 会不会是被人放掉了？为了故意制造混乱？</p>
+            <p>[7] 有可能。或者只是罗福还没来得及加今天的油就被砍了头。不管怎样，我们现在没电了。</p>
+            <p>[3] 那这里还有备用油桶吗？</p>
+            <p>[7] <span style="color: #666;">[金属咣当声]</span> 有桶，但是……也是空的。看来我们的运气真的用光了。</p>
+            <p>[3] 该死！那我们赶紧上去吧。这地方太压抑了，我总觉得黑暗里有双眼睛在盯着我的后背。</p>
+            <p>[7] 走吧。留在这也没用。我去储藏室看看能不能找点蜡烛或者煤油灯。</p>
+            <p>[7] 这下好了，真正的‘杀人游戏’要在黑暗里开场了。</p>
+            <p><span style="color: #666;">[06:22] [两人急促的脚步声向楼梯跑去]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+// ... 上接 77-BA-CHECK ...
+
+    // 录音 78：烛光与惊魂 (Store Room) - [10]安医生 & [7]陆伯达
+    "04-Store-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼储物间(Store Room) - 货架顶层内侧</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（背景极度安静，后段有高频噪音）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：沙沙的声音和急促的呼吸声]</span></p>
+            <p>[10] 太黑了……伸手不见五指……该死，蜡烛到底在哪？</p>
+            <p>[10] 啊！……大吉利是！罗福……罗福你安息吧，我不是有意冒犯……</p>
+            <p>[10] 别找我……千万别找我……</p>
+            <p>[10] 在这！感谢上帝！</p>
+            <p><span style="color: #666;">[04:25] [“咔嚓”。打火机点燃的声音]</span></p>            
+            <p>[10] 哇啊！！！鬼啊！！！</p>
+            <p>[7] 鬼叫什么。是我。</p>
+            <p>[10] 陆……陆先生？！你……你走路怎么没声音的？！人吓人无药医的你知道吗！</p>
+            <p>[7] 是你自己心里有鬼。我刚从地库上来，那下面也是漆黑一片。</p>
+            <p>[7] 你躲在这儿干什么？陪尸体聊天？</p>
+            <p>[10] 我……我来拿蜡烛！</p>
+            <p>[7] 拿到了就走。这地方阴气重。</p>
+            <p>[10] 等等，你……你身后没人吗？鲍乐呢？</p>
+            <p>[7] 鲍Sir？那个肥佬还在后面摸黑爬楼梯呢。我嫌他慢，先上来了。</p>
+            <p><span style="color: #666;">[06:09] [一阵锣声穿透了门板传了进来]</span></p>
+            <p style="font-size: 1.2em; text-align: center; font-weight: bold;">“哐！哐！哐！哐！！”</p>
+            <p>[10] 锣声？！……罗福？！他在敲锣？！</p>
+            <p>[7] 别胡扯！尸体动都没动！声音是从餐厅那边传来的！</p>
+            <p>[7] 这节奏不对……这是有人在报警！出事了！</p>
+            <p>[10] 餐厅？</p>
+            <p>[7] 快走！</p>
+            <p><span style="color: #666;">[07:15] [脚步声远去]</span></p>
+            
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 78-ST-CANDLE-SCARE ...
+
+    // 录音 79：致命蜂蜇 (Dining Room) - [ALL]全体人员
+    "15-Dining-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅（Dining Room) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含雷声、锣声与多人对话）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：窗外的暴雨声]</span></p>
+            <p>[6] <span style="color: #666;">[声音发颤]</span> 白小姐？……您在吗？</p>
+            <p><span style="color: #666;">[没有任何回应。只有雷声隐隐滚过]</span></p>
+            <p>[6] 白小姐？您别吓我……</p>
+            <p><span style="color: #666;">[00:15] [震耳欲聋的雷声（轰隆！！）]</span></p>
+            <p>[6] <span style="color: #666;">[倒吸一口凉气]</span> 啊！……</p>            
+            <p>[6] ……救命！救命啊！！</p>            
+            <p style="font-size: 1.2em; text-align: center; font-weight: bold;">“哐！哐！哐！哐！哐！！”</p>
+            <p><span style="color: #666;">[00:35] [急促杂乱的脚步声]</span></p>
+            <p>[7] 停下！别敲了！耳朵都要聋了！</p>    
+            <p>[3] 在这儿！……天哪！她死了！</p>
+            <p>[5] 看来……我们又被他算计了一回。来得太迟了！</p>
+            <p>[6] 我就离开了一会儿……就一会儿……</p>
+            <p>[10] 让开！让我看看！</p>
+            <p><span style="color: #666;">[03:55] [衣服摩擦的声音]</span></p>
+            <p>[10] 嗯……</p>
+            <p>[10] 瞳孔放大……没有外伤……</p>
+            <p>[7] 她是点死嘅（怎么死的）？我们走的时候，她还坐在这儿好好的.</p>
+            <p>[10] 等等……这是什么？</p>            
+            <p>[10] 是注射器。</p>
+            <p>[3] 针筒？！</p>
+            <p>[5] 她被注射了哪种毒药？</p>
+            <p>[10] 从症状看，估计也是一种氰化物。没准儿是氰化钾，和那个开车的唐少爷一样。</p>
+            <p>[10] 这种剂量直接打进颈动脉……她很可能当时就窒息身亡了，连哼都哼不出来。</p>
+            <p>[7] 真他妈狠。这下好了，第五个。</p>
+            <p>[5] 不能让她坐在这儿。陆先生，鲍警官，先把她抬回房间去吧。</p>
+            <p>[7] 行。鲍Sir，这回别偷懒，你抬那边。</p>
+            <p>[3] 知道了，啰嗦。</p>
+            <p>[7] 韦小姐，别哭了。拿着蜡烛给我们照亮。别走太快，要是把尸体摔了更麻烦。</p>
+            <p>[6] 好……我……我知道了。</p>
+            <p><span style="color: #666;">[01:45] [众人沉重的脚步声开始移动]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 79-DI-DISCOVERY-AND-EXAM ...
+
+    // 录音 80：烛光下的同盟 (Bedroom/Bai) - [7]陆伯达 & [6]韦若兰 & [3]鲍乐
+    "03-Bai-3-6-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼中厅客房(Bai's Room) - 酸枝木扶手椅背雕花缝隙</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含沉重的呼吸声与低语）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：沉重的脚步声进入房间。外面雷声滚滚。弹簧发出吱嘎一声]</span></p>
+            <p>[7] 行了，就放这儿吧。把刚才那块帆布盖上。</p>
+            <p>[3] 这女人看着干瘦，没想到这么沉。</p>
+            <p>[6] 鲍先生……你刚才是不是一直都知道？</p>
+            <p>[3] 知道什么？</p>
+            <p>[6] 你知道她死了。你一进去就说她死了……而且，你一直看那个医生。</p>
+            <p>[3] 你是不是‘发噏风’（胡说八道）？我当时跟陆生在一起！我们在地库！哪有时间杀人？</p>
+            <p>[6] 可是……</p>
+            <p>[3] 懒得跟你个癫婆废话。搬了一身臭汗，我都‘身水身汗’（浑身湿透）了。我得回房换件衣服，顺便洗把脸。</p>
+            <p>[3] 真是晦气，居然还要当搬尸工。</p>
+            <p><span style="color: #666;">[02:35] [脚步声消失]</span></p>            
+            <p>[7] <span style="color: #666;">[压低声音，语气严肃]</span> 听着，韦小姐。‘定啲黎’（镇定点）。</p>
+            <p>[7] 别独自下楼。防着点他们。</p>
+            <p>[6] 防着谁？……你是说法官和医生吗？</p>
+            <p>[7] 没错。那个老法官，满肚子坏水，一脸假惺惺。还有那个医生，手里拿着针筒，神经兮兮的。</p>
+            <p>[7] 比起鲍乐那个只会动拳头的莽夫，这两个人才是最危险的。</p>
+            <p>[6] 可是……他们看起来很正常……</p>
+            <p>[7] 在这里，越正常越有问题。</p>
+            <p>[7] 你就在这儿门口等我。</p>
+            <p>[6] 好……我听你的。我就在走廊等你。你快点。</p>
+            <p>[7] 一分钟。</p>
+            <p><span style="color: #666;">[04:10] [脚步声消失]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 80-BE-WARNING ...
+
+    // 录音 81：雷雨中的密谋 (Library) - [5]沃格雷夫爵士 & [10]安医生
+    "16-Dining-5-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 餐厅(Dining) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：低（包含严重雷电干扰与电流杂音）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：外面的暴风雨达到了顶峰。雷声几乎没有间断]</span></p>
+            <p>[10]  ……下一个肯定是我！或者你！爵士，我们不能坐以待毙！那个疯子……</p>
+            <p>[5] 镇定，医生。恐惧会影响你的判断力。</p>
+            <p>[5] 现在的局势很明显，凶手就在我们中间。但他隐藏得太好了。常规的方法抓不住他。</p>
+            <p>[10] 那怎么办？我们都要死在这儿吗？</p>
+            <p>[5] 不。我有一个计划。一个……反客为主的计划。</p>
+            <p>[10] 计划？什么计划？</p>
+            <p>[5] 凶手以为他是猎人，我们在明处，他在暗处。我们要想赢，就必须打破这个局面。</p>
+            <p>[5] 听着，这需要你绝对的配合，利用你的专业知识。这可能很冒险，但是……</p>
+            <p>[5] 计划很简单。为了让他露出马脚，我必须……</p>
+            <p><span style="color: #666;">[02:35] [突然，一道极近的霹雳炸响，伴随着电流的滋滋声]</span></p>
+            <p style="font-size: 1.2em; text-align: center; font-weight: bold;">[巨大的雷声与静电噪音：轰隆隆——滋滋——]</p>
+            <p>[5] ……受害者……[噪音]……</p>
+            <p>[10] 什么？！这太疯狂了！你是说你要……[杂音覆盖]……？</p>
+            <p>[5] 嘘！小声点。是的。</p>            
+            <p>[10] 可是……这怎么可能……[杂音覆盖]……</p>
+            <p>[5] 这就需要你出场了，医生。你是唯一的医生。</p>            
+            <p>[10] 我明白了……这招‘置之死地而后生’。好！我干！只要能抓住那个混蛋！</p>
+            <p>[5] 很好。记住，从现在开始，除了我们两个，不要相信任何人。</p>            
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 81-US-SECRET-PLAN ...
+
+    // 录音 82：独狼的喘息 (Bedroom/Blore) - [3]鲍乐
+   // ... 上接 81-US-SECRET-PLAN ...
+
+    // 录音 82：失窃的枪 (Bedroom/Lu) - [7]陆伯达
+    "04-Lu-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼西侧客房(Lu's Room) - 梳妆镜后方缝隙</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：急促沉重的皮靴声走近。]</span></p>            
+            <p>[7] 嗯？</p>            
+            <p>[7] 没锁？！……我明明锁咗门架（我明明锁了门的）！</p>            
+            <p>[7] 谁？！……谁在里面！出来！</p>            
+            <p>[7] 没人？……不对。有人进来过。</p>
+            <p>[7] 我的枪！</p>
+            <p><span style="color: #666;">[00:25] [暴力拉开抽屉的声音（哐当！）。翻动物品的声音（哗啦啦）。]</span></p>
+            <p>[7] 冇咗（没了）？！……怎么会没了？！</p>
+            <p>[7] 在这儿……明明放在这儿的！</p>
+            <p>[7] Damn it……被偷了。</p>
+            <p>[7] 那个凶手……他拿到我的枪了。</p>            
+            <p>[7] 大镬（糟糕透顶）……这下真的‘大镬’了。</p>
+            <p><span style="color: #666;">[02:51] [急促的皮靴声重重地踩在地板上]</span></p>
+            <p>[7] <span style="color: #666;">[大吼]</span> 出事了！！所有人！全都过来！！</p>
+            <p style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[录音结束]</p>
+        </div>
+    `,
+    // ... 上接 82-BE-MISSING-GUN ...
+
+    // 录音 83：洗不掉的尸气 (Bedroom/Blore) - [3]鲍乐 & [7]陆伯达(画外音)
+    "04-Bao-3": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼北侧客房(Bao's Room) - 梳妆台镜框后方缝隙</p>
+            <p style="margin: 2px 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含水声与更衣声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：沉重的脚步声冲进房间]</span></p>
+            <p>[3] 呸！真系‘大吉利是’（晦气）。刚才就不该去抬那个死人头。</p>
+            <p>[3] <span style="color: #666;">[脱下外套的声音（噗）。]</span> 一股血腥味……闻着都想吐。</p>
+            <p><span style="color: #666;">[00:45] [水流的声音（哗啦啦）。]</span></p>
+            <p>[3] 呼……呼……</p>
+            <p>[3] 醒定啲（清醒点），鲍乐。现在谁都信不过。</p>
+            <p>[3] 那个医生……绝对有鬼。哼。</p>
+            <p><span style="color: #666;">[00:40] [衣物摩擦的声音（沙沙））]</span></p>            
+            <p>[7] <span style="color: #666;">[远处模糊但清晰的吼声]</span> 出事了！！所有人！全都出来！！</p>
+            <p>[3] 又怎么了？那个‘烂仔’（流氓）叫魂啊？</p>
+            <p>[3] 妈的，难道又死了一个？</p>
+            <p><span style="color: #666;">[05:55] [猛地开门声]</span></p>
+            <p>[3] <span style="color: #666;">[声音好像是从远处传来]</span> 陆生？！在哪儿？！</p>
+            <p style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[录音结束]</p>
+        </div>
+    `,
+    // ... 上接 83-BE-BLORE-ALARM ...
+
+    // 录音 84：失控的指控 (Corridor) - [ALL]全体人员
+    "09-Corridor-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼走廊 - 壁灯底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（多人争吵）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：窗外的雷暴声震耳欲聋]</span></p>
+            <p>[6] 陆先生？！怎么了？发生什么事了？</p>
+            <p>[7] 枪不见了。</p>
+            <p>[6] 什么？！</p>
+            <p><span style="color: #666;">[00:15] [急促的脚步声]</span></p>
+            <p>[3] 陆生！到底搞边科（搞什么）？又有人死了？</p>
+            <p>[5] 我们听到喊声……出什么事了？</p>
+            <p>[7] 我的房门是锁着的。但我刚才回去，门是开的。</p>
+            <p>[7] 有人进过我的房间。我的手枪被偷了。</p>
+            <p>[5] 门锁没坏？</p>
+            <p>[7] 没坏。这说明有人用了‘百合匙’（万能钥匙）。罗福作为管家，肯定有一把能开所有房间的‘百合匙’。</p>
+            <p>[10] 哈！钥匙？是你和鲍乐给他收的尸，对吧？我可没碰过罗福的口袋。</p>
+            <p>[10] 而且，有没有钥匙还是另外一码事。枪被盗？这也只是你的一面之词。或许根本就是你自己拿了！</p>
+            <p>[7] 我自己拿？我何必偷自己的枪？我有病吗？</p>
+            <p>[10] 我不知道你为什么做任何事，陆先生。就像我不知道你为什么杀了白女士、罗福，还有马将军！</p>
+            <p>[7] 我没杀他们！</p>
+            <p>[10] 你当然会那么说了。就像你会说你的枪是被盗的一样。</p>
+            <p>[10] 把枪藏起来，假装自己也是受害者，这招‘苦肉计’演得不错啊，以为我们都看不出来吗？</p>
+            <p>[7] 你真是一个超级大白痴！</p>
+            <p>[5] 行了，还有女士在场。</p>
+            <p>[3] 不……医生说得有点道理。这叫‘虚实并用’。</p>
+            <p>[7] 什么？</p>
+            <p>[3] 这是以前道上常用的手段。‘故弄玄虚’，搞一场‘大龙凤’（大戏），让大家乱成一团，你就好浑水摸鱼。</p>
+            <p>[7] 浑水摸鱼？死肥佬，你在地库为什么上来那么慢？啊？！</p>
+            <p>[7] 你磨磨蹭蹭的在干什么？是不是趁机去杀了白女士？嗯？</p>
+            <p>[7] 可能罗福也是你杀的！是你拿了那把‘百合匙’，然后去睡觉装死。刚才你在地库故意拖延时间，等我不注意，你就溜进我房间偷了我的枪！</p>
+            <p>[7] 现在你拿了我的枪，还在这儿跟我‘作贼喊捉贼’？！你这个混蛋！</p>
+            <p>[3] 放手！我没杀罗福！也没有什么鬼钥匙！更没拿你的破枪！</p>
+            <p>[3] 现在这种情况，我们任何人都有可能拿了钥匙，任何人都可能拿着那把枪躲在后面！</p>
+            <p>[5] 够了！陆先生！鲍警官！都住手！</p>            
+            <p>[5] 我提议，立刻进行一次彻底的搜查。搜查所有人的房间，甚至……搜查所有人的身上。</p>
+            <p>[5] 既然安医生刚才第一个质疑，那为了公平起见……</p>
+            <p>[5] 我们就第一个搜查安医生的房间。医生，你没意见吧？</p>
+            <p>[10] 搜就搜！我身正不怕影子斜！</p>
+            <p>[7] 好。那就走。谁要是敢藏着那把枪，我亲手拧断他的脖子。</p>
+            <p><span style="color: #666;">[09:50] [脚步声移动]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 84-CO-CONFRONTATION ...
+
+    // 录音 85：赤裸的尊严 (Bedroom/An) - [ALL]全体人员
+    "06-An-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼北侧客房(An's Room) - 洗手台镜后</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（伴随翻找声与衣物摩擦声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：房间里抽屉被粗暴拉开并扔在地上的声音（哐当！）。床垫被掀起的沉闷声（嘭！）]</span></p>
+            <p>[7] 床底下！还有那个衣柜顶！都给我看清楚！</p>
+            <p>[10] 小心点！那是我的听诊器！你们这是在抄家吗？！</p>
+            <p>[3] 陆生，这里有个药箱。</p>
+            <p>[3] <span style="color: #666;">[翻动玻璃瓶的声音（丁零当啷）]</span> 啧啧，除了安眠药就是麻醉剂，还有几瓶看着像毒药的东西。医生，你这包里装的简直就是个‘杀人套餐’啊。</p>
+            <p>[10] 那是急救药品！这是医生的职责！但我没枪！看到了吗？没有枪！</p>
+            <p>[7] 房间里是没有。但不代表你身上没有。</p>
+            <p>[10] 你什么意思？</p>
+            <p>[7] 脱！</p>
+            <p>[10] 什……什么？！</p>
+            <p>[7] 把衣服脱了。这种天气穿外套本来就不正常。谁知道那把左轮是不是贴在你大腿上？或者是腋下？</p>
+            <p>[10] 这是侮辱！奇耻大辱！我是有身份的医生，不是囚犯！</p>
+            <p>[5] 医生，非常时期非常手段。既然你要证明清白，就‘大大方方’（痛快点）吧。</p>
+            <p>[5] 韦小姐，请你在门外回避一下。</p>
+            <p>[6] 好……我就在外面。</p>            
+            <p>[7] 快点。别磨蹭。脱光。只能裹这块浴巾。</p>
+            <p>[10] 陆伯达……你给我记住。这笔账我迟早跟你算。</p>
+            <p><span style="color: #666;">[皮带解开的声音（咔嚓）。衣物摩擦的声音（沙沙）]</span></p>
+            <p>[3] 外套没有……裤兜是空的……鞋里也没有。</p>
+            <p>[3] 我看他身上也没藏东西。除非他吞下去了。</p>
+            <p>[7] 哼。算你走运。</p>
+            <p>[10] 满意了吗？！你们这群野蛮人！</p>
+            <p>[7] 还没完。下一个是我。走，去我房间。让你们搜个够。</p>
+            <p>[7] 我要让你们知道，什么叫坦荡。</p>
+            <p><span style="color: #666;">[11:31] [脚步声离开]</span></p>
+            <p>[10] ……该死……全都该死……</p>
+            <p style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</p>
+        </div>
+    `,
+    // ... 上接 85-BE-SEARCH-AN ...
+
+    // 录音 86：坦荡的野兽 (Bedroom/Lu) - [ALL]全体人员
+    "05-Lu-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼西侧客房(Lu's Room) - 梳妆镜后方缝隙</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含皮带扣声与脚步声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：众人涌入房间]</span></p>
+            <p>[7] 来吧。别客气。把这地方‘反转佢’（翻个底朝天）。</p>
+            <p>[7] 鲍Sir，床垫下面看过没？枕头套里呢？别一会儿说我藏在你们眼皮子底下。</p>
+            <p>[3] 不用你教我做事。只要枪在这屋里，就算变成针我也能找出来。</p>
+            <p>[10] 哼，既然他敢让我们搜，说明早就转移了。也许扔出窗外了？</p>
+            <p>[7] 医生，你以为谁都像你一样阴险？</p>
+            <p>[7] 房间搜完了吧？没找到？</p>
+            <p>[3] 没有。屋里是干净的。</p>
+            <p>[7] 好。那现在轮到我了。</p>
+            <p><span style="color: #666;">[07:35] [解皮带扣的清脆金属声（咔哒）]</span></p>
+            <p>[6] 那个……陆先生，我就不看了。</p>
+            <p>[6] 既然要……要那样检查，我还是去走廊等着比较好。</p>
+            <p>[7] 随你便，韦小姐。</p>
+            <p><span style="color: #666;">[急促的高跟鞋声]</span></p>
+            <p>[7] 好了，现在你们三个男人，睁大眼睛看清楚。</p>
+            <p>[7] 别到时候说我‘博懵’（蒙混过关）。</p>            
+            <p>[7] 看到了？除了这身伤疤，什么都没有。</p>
+            <p>[3] 鞋底……空的。裤腰……没夹层。</p>
+            <p>[3] 他身上确实没枪。</p>
+            <p>[10] 这说明不了什么！他可能把枪藏在走廊的天花板上，或者地毯下面！</p>
+            <p>[7] 收皮啦（闭嘴吧），医生。承认吧，你们猜错了。</p>
+            <p>[7] 枪是真的丢了。现在那个偷枪的人，正躲在暗处笑我们这群傻瓜在这儿互相‘剥光猪’（脱衣搜身）呢。</p>
+            <p>[5] 陆先生说得对。既然这里没有，我们必须继续。下一个是谁？鲍警官？</p>
+            <p>[3] 搜就搜！去我那儿！我还没嫌你们把死人味带进我房间呢！</p>
+            <p><span style="color: #666;">[11:30] [众人脚步声离开房间]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 86-BE-SEARCH-LU ...
+
+    // 录音 87：铁盒里的秘密 (Bedroom/Bao) - [ALL]全体人员
+    "05-Bao-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼北侧客房(Bao's Room) - 梳妆台镜框后方缝隙</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含物品散落声、阅读声与羞愤的争吵）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：房间内传出暴力的翻找声]</span></p>
+            <p>[3] 喂！小心点！那是我的私人物品！里面是查案的资料，你们没权看！</p>
+            <p>[7] 在这岛上，只有死人才有隐私。给我开！</p>
+            <p><span style="color: #666;">[东西哗啦啦散落一地的声音]</span></p>
+            <p>[7] 嚯，东西不少啊。让我看看……不是枪。</p>
+            <p>[7] 这是什么？薄荷糖？</p>
+            <p><span style="color: #666;">[打开盒盖的声音（咔嗒）。]</span></p>
+            <p>[7] 哕……这股甜腻味。是‘大烟’（鸦片）。</p>
+            <p>[7] 而且看这黑亮黑亮的成色，是上好的‘云土’（云南特级鸦片）啊。鲍探长，你日子过得挺滋润啊。</p>
+            <p>[10] 鸦片膏？身为前警务人员，居然随身带着这种东西？你是‘道友’（瘾君子）？</p>
+            <p>[3] 胡说！我不是瘾君子！那是……那是证物！我以前查案没收的！只是忘了上交！偶尔……偶尔牙疼的时候用来止痛！</p>
+            <p>[7] 止痛？我看你是用来‘上电’（过瘾）的吧。这盒子里都被挖空一半了，你这牙疼得够频繁的。</p>
+            <p>[7] 这大烟鬼的爱好还挺广泛。看看这些……《巴黎丽人》、《闺房秘史》？啧啧，全是些洋妞的裸照。</p>
+            <p>[6] 下流！</p>
+            <p>[7] 鲍Sir，一边抽着‘福寿膏’，一边看‘咸书’（色情书刊），你这退休生活规划得不错啊。</p>
+            <p>[3] 闭嘴！男人有点爱好怎么了！这是艺术鉴赏！还给我！</p>                
+            <p>[7] 脱！马上脱！我倒要看看你这种一边抽大烟、一边看咸书的烂人，身上到底有没有藏枪！</p>
+            <p>[3] 脱就脱！我是清白的！至少我没杀人！</p>            
+            <p>[7] 转一圈。抬脚。……行了，一身肥肉，确实没地儿藏枪。</p>
+            <p>[7] 把你的‘宝贝’都收起来吧。真让人倒胃口。</p>
+            <p>[3] 走！赶紧走！去搜爵士的！我就不信他是干净的！</p>
+            <p><span style="color: #666;">[12:50] [众人离开房间]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 87-BE-SEARCH-BAO ...
+
+    // 录音 88：死亡判决书 (Bedroom/Judge) - [ALL]全体人员
+    "05-Wargrave-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼客房(Wargrave's Room) - 床头台灯底座</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（背景安静，只有雨声和纸张声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：窗外的雨声沉闷]</span></p>
+            <p>[3] 哼，这屋子倒是收拾得整齐。爵士，你的东西都在哪？别让我们费劲。</p>
+            <p>[5] 都在抽屉里。书，文件，还有一些药物。你们尽管搜，但是请轻一点，不要弄乱我的东西。</p>
+            <p>[7] 动手吧。床底，衣柜，都别放过。</p>
+            <p><span style="color: #666;">[抽屉滑轨的声音（哗啦）。]</span></p>
+            <p>[3] 全是些法律文书……判决书……无聊透顶。</p>
+            <p>[3] 哎？这个是……</p>            
+            <p>[3] 全是洋文医学术语，看不懂。医生，你来看看这个。这是哈利街寄来的。</p>
+            <p>[10] 哈利街？那是顶级专科医生聚集的地方。让我看看……</p>
+            <p><span style="color: #666;">[04:35] [沉默了片刻]</span></p>
+            <p>[10] 爵士……这是真的吗？</p>
+            <p>[7] 别打哑谜。上面写的什么？</p>
+            <p>[10] 这是一份活检报告。确诊书。</p>
+            <p><span style="color: #666;">[警方在WARGRAVE·Lawrence的房间找到了这份确诊书：EVI_WARGRAVE_DIAGNOSIS]</span></p>
+            <p>[10] 晚期腹部恶性肿瘤。已经扩散了。无法手术。</p>
+            <p>[6] 天哪……</p>
+            <p>[7] 讲人话，医生。</p>
+            <p>[10] 意思是……爵士的日子不多了。按照这个发展速度，最多还有两个月。甚至更短。</p>
+            <p><span style="color: #666;">[房间里陷入了一阵安静，只有窗外的雷声隐隐传来]</span></p>
+            <p>[5] 本来不想提这件事的。太扫兴了。</p>
+            <p>[5] 是的。我来这个岛，其实是为了度过我人生中最后一个假期。我想在海边安静地走完最后一程。</p>
+            <p>[5] 可惜，看来上帝连这最后的安宁也不愿给我。</p>
+            <p>[3] 呃……这个……我很遗憾，爵士。我不知道……</p>
+            <p>[7] 快死的人了？哼，难怪你这么淡定。你根本就没有什么可失去的了。</p>
+            <p>[5] 我有。我有尊严，陆先生。</p>
+            <p>[5] 既然规矩定了，就不能破例。韦小姐，请回避。</p>
+            <p>[6] 不……爵士，您不用……</p>
+            <p>[5] 去吧，这是必须的程序。</p>
+            <p><span style="color: #666;">[08:25] [高跟鞋声离开]</span></p>
+            <p>[5] 来吧。看看我这把老骨头里，有没有藏着你们要找的枪。</p>
+            <p><span style="color: #666;">[缓慢的衣物摩擦声]</span></p>
+            <p>[10] 看……瘦得皮包骨头了。腹部有手术疤痕。他没撒谎。</p>
+            <p>[10] 这种身体状况，根本不可能有力气把罗福那样的壮汉劈死，也不可能迅速地跑上跑下。</p>
+            <p>[7] 行了。穿上吧。</p>
+            <p>[3] 也没枪。房间也搜了。都没有。</p>
+            <p>[5] 那么，只剩下最后一个地方了。韦小姐的房间。</p>
+            <p>[5] 走吧。我们去完成这最后一步。</p>
+            <p><span style="color: #666;">[17:55] [手杖敲击地板的声音（笃、笃、笃）。脚步声离去]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 88-BE-SEARCH-JUDGE ...
+
+    // 录音 89：旧照片的阴影 (Bedroom/Wei) - [ALL]全体人员
+    "06-Wei-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼东侧客房(Wei's Room) - 壁炉台汉白玉石狮底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含争抢声与雷声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：风雨声更大了一些]</span></p>
+            <p>[5] 韦小姐，为了节省时间，也为了避免像刚才那样尴尬的场面……我有个提议。</p>
+            <p>[5] 我记得你带了一件丝绸泳衣。如果你能换上它，我们就能一目了然地确定你身上没有藏匿武器。这样我们也方便搜查房间。</p>
+            <p>[6] 泳衣？……在这时候？</p>
+            <p>[5] 这是为了证明你的清白，孩子。只要几分钟。</p>
+            <p>[6] ……好吧。请你们在门外等一下。</p>
+            <p><span style="color: #666;">[03:51] [关门声。片刻后，门重新打开。]</span></p>
+            <p>[3] 哇哦。韦小姐真是‘深藏不露’啊。这身材，难怪能当家庭教师。</p>
+            <p>[7] 闭上你的狗嘴，鲍Sir。进去搜吧，别废话。</p>
+            <p>[3] 全是女人的衣服……这箱子也太轻了，根本藏不住东西。</p>
+            <p>[7] 看仔细点，别弄坏了人家的东西。</p>
+            <p>[3] 这是什么？梳妆台的抽屉锁着？</p>
+            <p>[6] 那里面……只有一些私人物品。没有枪！</p>
+            <p>[3] <span style="color: #666;">[强行拉开抽屉的声音（嘎吱——砰）]</span> 有没有枪看了才知道。</p>            
+            <p>[3] 哟，还藏着男人的照片呢。这小白脸是谁啊？长得倒是一表人才。韦小姐，这是你的‘情郎’（相好的）？</p>
+            <p>[6] 还给我！别用你的脏手碰他！</p>
+            <p>[3] 还有一张……嗯？是个小孩？</p>
+            <p>[3] 看着七八岁的样子，胖嘟嘟的。韦小姐，这是你的私生子？还是……</p>
+            <p>[3] 等等。那个童谣录音里说你杀了一个孩子……不会就是这个吧？‘小宝’？</p>
+            <p>[6] 住口！不许你提他的名字！还给我！！</p>
+            <p><span style="color: #666;">[09:41] [激烈的争抢声，玻璃碎裂声]</span></p>
+            <p>[7] 够了！鲍乐！</p>
+            <p>[7] 我们是来找枪的，不是来挖人隐私的。照片里能藏手枪吗？</p>
+            <p>[3] 你护着她干什么？陆生，你不会是看上这妞了吧？</p>
+            <p>[7] 我只是看你欺负女人的样子很恶心。比你抽大烟的样子还恶心。</p>
+            <p>[5] 两位先生！适可而止。</p>
+            <p>[5] 我们搜遍了所有的房间，搜了所有人的身。没有枪。</p>
+            <p>[10] 那枪去哪了？！难道长翅膀飞了？</p>
+            <p>[7] 枪没飞。它就在这栋房子里的某个角落。或者……就在我们刚才没搜到的公共区域。</p>
+            <p>[7] 最重要的是……拿枪的那个人，就在我们中间。他在看着我们像没头苍蝇一样乱转。</p>
+            <p>[5] 现在的局势很清楚了。没有任何人是安全的。我们必须时刻保持警惕。</p>
+            <p>[5] 现在是午饭时间。虽然我不觉得谁还有胃口，但我们还是聚在一起比较安全。去厨房看看有什么能吃的罐头吧。韦小姐，你换好衣服再下来。</p>
+            <p><span style="color: #666;">[15:50] [众人脚步声离开。]</span></p>                        
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 89-BE-SEARCH-WEI ...
+
+    // 录音 90：铁罐里的午餐 (Kitchen) - [ALL]全体人员
+    "09-Kitchen-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼厨房(Kitchen) - 灶台上方排气扇内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含金属碰撞声与开瓶声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：翻动货架发出的咣当咣当的声音]</span></p>
+            <p>[3] 饿死人了。折腾了一上午。这鬼地方连个面包都没有了吗？</p>
+            <p>[5] 有也不能吃，鲍警官。除非你想像唐先生或者白女士那样口吐白沫。</p>
+            <p>[5] 只找罐头。铁皮密封的。还有那种没开封的饼干筒。</p>
+            <p>[10] 这个可以。这是一罐咸牛舌。焊缝是好的，没有针孔。</p>
+            <p>[3] 给我看看……嗯，还有两罐午餐肉。这里还有一盒苏打饼干，封条没动过。</p>
+            <p>[3] 嘿！这后面还有酒！几瓶威士忌，还有啤酒！</p>
+            <p>[5] 检查瓶塞。必须是原厂密封的软木塞或者铁盖。</p>
+            <p>[3] <span style="color: #666;">[拔出一个木塞的声音（啵！）]</span> 听听这声音！绝对‘没花没假’（真的）。我现在就需要喝一口压压惊。</p>
+            <p><span style="color: #666;">[00:45] [门口传来脚步声]</span></p>
+            <p>[7] 有什么发现吗？</p>
+            <p>[10] 找到了几罐肉和饼干。都是密封的，应该没毒。</p>
+            <p>[5] 韦小姐还好吗？</p>
+            <p>[6] 我……我还好。谢谢关心，爵士。</p>
+            <p>[7] 总比饿死强。鲍Sir，那个酒给我一瓶，我要啤酒。</p>
+            <p>[3] 自己拿。别说我不照顾你们。</p>
+            <p>[7] <span style="color: #666;">[撬开（咔嚓、吱嘎）的声音]</span> 嗯，味道正常。若兰，一会儿你吃这罐，我帮你开。</p>
+            <p>[6] 谢谢。</p>
+            <p>[5] 这里太挤了，光线也不好。既然食物都找齐了，我们去餐厅吧。</p>
+            <p>[5] 大家坐在一起吃。所有的罐头都要当面打开。酒也要当面倒。</p>
+            <p>[10] 同意。我可不想视线离开我的食物哪怕一秒钟。</p>
+            <p>[3] 走走走。赶紧填饱肚子。这暴雨下得人心烦。</p>
+            <p><span style="color: #666;">[01:25] [众人的脚步声离开厨房。只有窗外依旧狂暴的雨声]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 89-BE-SEARCH-WEI ...
+
+    // 录音 91：暧昧的盟约 (Corridor) - [7]陆伯达 & [6]韦若兰
+    "10-Corridor-6-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼走廊（Corridor） 壁灯底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（背景有雷声，人声低沉且距离极近）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：沉重的脚步声（笃、笃、笃）越来越远，直到完全消失。走廊里只剩下窗外的风雨声]</span></p>
+            <p><span style="color: #666;">[皮衣摩擦的声音（沙沙）]</span></p>
+            <p>[7] 啧、啧、啧……</p>
+            <p>[7] 真没想到，韦小姐看起来瘦瘦弱弱，身材倒是很有‘料’。刚才那一出，可是把那个胖警察看傻了眼。</p>
+            <p>[6] 陆先生……您取笑我吗？</p>
+            <p>[7] 我？不。</p>            
+            <p>[6] 刚才……谢谢你护着我。如果不是你，我真的不知道该怎么办了……</p>
+            <p>[6] 陆先生，你是这里唯一像个男人的……男人。</p>
+            <p>[7] 叫我伯达。</p>
+            <p>[6] ……伯达。</p>
+            <p>[7] 嗯。</p>
+            <p>[6] ……若兰。</p>            
+            <p>[7] 走吧，若兰。别让他们等太久，不然那帮疑神疑鬼的家伙又要乱猜了。</p>
+            <p>[6] 好……我都听你的。</p>
+            <p><span style="color: #666;">[01:15] [两人的脚步声远去]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 90-KI-SAFE-LUNCH ...
+
+    // 录音 93：最后的午餐(上) (Dining Room) - [ALL]全体人员
+    "17-Dining-3-5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅（Dining Room) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（前段为纯环境音，后段为人声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：窗外的雷暴雨声依旧猛烈（轰隆——哗啦啦）]</span></p>
+            <p><span style="color: #666;">[金属勺子用力刮擦铁皮罐头内壁的声音（滋——嘎——）。]</span></p>            
+            <p><span style="color: #666;">[沉重的吞咽声（咕嘟）。]</span></p>
+            <p><span style="color: #666;">[偶尔有叉子碰到金属的磕碰声]</span></p>            
+            <p><span style="color: #666;">[19:15] [一段时间的沉默]</span></p>
+            <p>[10] 我们不能光坐着！……什么也不做！就像待宰的猪一样！</p>
+            <p>[3] 那你话事（你说），我们应该做什么？</p>
+            <p>[10] 我们应该在岬角上生火！把所有的木头都烧了！只要火够大，岸上的人也许能看到烟！我们必须向外呼救！</p>
+            <p>[7] 省省吧，医生。看看窗外。</p>
+            <p>[7] 这种暴风雨，你那点火苗还没点着就被浇灭了。这天气里没法成功。</p>
+            <p>[10] 该死……该死！</p>
+            <p><span style="color: #666;">[01:45] [椅子被推开的声音（吱——）。]</span></p>
+            <p>[10] 她要去哪？！你要去哪？！</p>
+            <p>[6] 去厨房。我想泡壶茶。我会端来给大家。</p>
+            <p>[10] 茶？哈！你还准备拿什么来？</p>
+            <p>[10] 厨房里的切肉刀吗？还是你偷偷藏起来的那把手枪？你准备在茶里放什么？</p>
+            <p>[6] 茶里只会放柠檬，医生。</p>
+            <p>[6] 我不会拿刀子。我也没有枪。而且……即使我有，我也不会同时杀掉你们所有人。</p>
+            <p>[10] 我们怎么知道？！你这个女人……</p>
+            <p>[6] 因为都是一个接一个。不是吗？</p>
+            <p>[6] 他们都是以特定的死法死去的。还是说……你根本没注意那首童谣？</p>
+            <p>[6] 那上面根本没有提到什么枪。也没有提到最后是一场‘大屠杀’。</p>            
+            <p>[7] 若兰，我跟你一起去。厨房太黑了。</p>
+            <p>[3] 不、不！等等！</p>
+            <p>[3] 我们……单独行动……或者一起……</p>            
+            <p>[6] 不用了，我很快回来。</p>
+            <p><span style="color: #666;">[29:30] [脚步声远去]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[由于本段录音时间过长，切分成两个部分，第一部分 录音结束]</div>
+        </div>
+    `,
+    // ... 上接 93-DI-LUNCH-PART1 ...
+
+    // 录音 94：最后的午餐(下) (Dining Room) - [ALL]全体人员
+    "18-Dining-3--5-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅（Dining Room) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含雷声、瓷器碰撞声与长段独白）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：脚步声。托盘放在桌上的声音（咔哒）。]</span></p>
+            <p>[6] 茶泡好了。加了柠檬。</p>
+            <p>[10] 别动。先别倒给大家。</p>
+            <p>[7] 安医生，别太过分了。</p>
+            <p>[6] 没关系。我知道规矩。</p>
+            <p><span style="color: #666;">[倒茶的水声]</span></p>
+            <p>[6] <span style="color: #666;">[清晰的吞咽声（咕嘟）。]</span> ……</p>            
+            <p>[6] 看。我没死。也没有口吐白沫。</p>
+            <p>[3] 那就好，那就好。给我来一杯，热乎的。</p>
+            <p><span style="color: #666;">[03:40] [连续的倒茶声。瓷杯碰到碟子的清脆声响（叮、叮）]</span></p>
+            <p>[7] 爵士，我听说你……特别喜欢判死刑？</p>
+            <p>[5] 如果那是罪有应得的话，陆先生。没错。</p>
+            <p>[7] 鲍乐告诉我，你会去现场观看你所判的每一场死刑。是真的吗？看着别人的脖子被绳子勒断，很有趣？</p>
+            <p>[5] 这与趣味无关。</p>
+            <p>[5] 我有权力因男男女女所犯下的罪，判处他们死刑。巨大的权力伴随着巨大的责任。</p>
+            <p>[5] 我认为，当这种终极权力行使时，判决者如果避而不见，既是不负责任，也是懦夫的表现。</p>
+            <p>[7] 哼，说得好听。那你看那个谢东的绞刑了吗？</p>
+            <p>[6] 谢东？……我记得在报纸上看到过关于他的报道。当时大家都说他是无辜的，是警方抓错了人……</p>
+            <p>[5] 他不是无辜的。绝不是。</p>
+            <p>[5] 警方搜查时发现了他留下的日记。那些日记证明了他内心早已扭曲堕落。</p>
+            <p>[5] 他觉得他的受害者都污秽不堪，他是在清洗那些人留在世上的污渍。他用各种蛛丝马迹和误导，嘲弄警方，并沾沾自喜。折磨和虐待受害者令他感到激动。</p>
+            <p><span style="color: #666;">[窗外响起一阵闷雷（轰隆隆……）]</span></p>
+            <p>[3] 既然他有罪，而你的判决又是正确的……那你去看了吗？去看他行刑？</p>
+            <p>[5] 我去了。</p>
+            <p>[5] 那场面令人不安，很不寻常。</p>
+            <p>[5] 他拒绝戴头罩。他想让我看到他的脸。</p>
+            <p>[5] 可能是想暗示我们之间有什么共同之处……也可能是想嘲笑我。</p>
+            <p>[6] 嘲笑你？一个死囚嘲笑法官？</p>
+            <p>[5] 是的。嘲笑正义。正义对他毫无意义。</p>
+            <p>[5] 他既不畏服正义，也不畏服我。在他眼里，我微不足道。我很快就会被忘记，成为法律历史的一个小小注脚。</p>
+            <p>[5] 而他……却留下了无数血案和恐惧，将会被世人所铭记。他也确实成功了，直到现在，他仍令我无法释怀。</p>
+            <p>[5] 不过，嘲笑与否，善恶终有报，向来如此。世界最终还是摆脱了他带来的可怕黑暗。</p>
+            <p><span style="color: #666;">[58:15] [长时间的沉默。只有窗外狂暴的风雨声（呼啸——）。]</span></p>
+            <p>[10] 这太荒唐了！凶手就在我们中间！</p>
+            <p>[10] 我们不能就这样坐以待毙！我要疯了！</p>
+            <p>[5] 好吧，我们说好要么单独行动，要么一起。现在看来大家都很烦躁。</p>
+            <p>[5] 我要去客厅看书了。对不起，安医生，但你的焦虑让我备感厌倦。</p>
+            <p>[10] 你要走？！</p>
+            <p>[5] 你可以继续在这儿发抖，或者和我一样，找点事情让脑子冷静下来。</p>
+            <p><span style="color: #666;">[61:45] [手杖敲击地板的声音（笃、笃、笃）。]</span></p>
+            <p><span style="color: #666;">[随着餐厅开门的声音，外面的风雨雷电声瞬间变大（轰隆！！哗啦！！）]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[第二部分 录音结束]</div>
+        </div>
+    `,
+    // ... 上接 94-DI-LUNCH-PART2 ...
+
+    // 录音 95：刺耳的茶杯 (Dining Room) - [ALL]全体人员
+    "19-Dining-3-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 餐厅(Dining) - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含持续的高频噪音与急促呼吸声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：越来越大的雨声，一种奇怪的声音（滋……滋……滋……）]</span></p>
+            <p>[7] ……善恶有报。哼。</p>
+            <p>[7] 刚才听那老头说话，我突然想到……其实凶手和沃格雷夫法官有着同样的目标。</p>
+            <p>[7] 他们都从致人死亡中，获得同样的快感。</p>
+            <p>[3] 你看！我就说吧！我说是法官的时候，你还不屑一顾呢。</p>
+            <p>[7] 是啊……现在我的看法不一样了。</p>
+            <p>[7] 你想想，他一辈子坐在高台上，看过多少人被绞死？那种场面看多了，会对人的灵魂有什么影响？</p>
+            <p>[7] 也许他已经不满足于只是宣判了。他想亲自动手。</p>
+            <p>[3] 就是！而且他现在独自一人，谁知道他在密谋什么？</p>
+            <p><span style="color: #666;">[05:45] [滋……滋……滋…的声音一直持续着]</span></p>
+            <p><span style="color: #666;">[类似于像是指甲划过黑板一样的共振声。声音不大，但频率极高]</span></p>            
+            <p><span style="color: #666;">[滋……滋……滋——声音越来越响]</span></p>
+            <p>[10] 停下！好吗？！快停下！！</p>
+            <p>[10] 我的神经快被你弄断了！你在发什么疯？</p>
+            <p>[6] 我发疯？就好像你不惹人烦似的，医生。</p>
+            <p>[6] 你看看你自己。从刚才开始就一直气喘吁吁，好像空气不够用似的。</p>
+            <p>[6] 还有你那根烟，吞云吐雾，把这里弄得乌烟瘴气。你抓耳挠腮，坐立不安，在这狭窄的地方来回踱步……就像只被关在笼子里的猴子！</p>
+            <p>[6] 你那样子看起来比谁都像凶手！</p>
+            <p>[10] 你……</p>
+            <p>[6] 我回房间了。</p>
+            <p>[3] 喂！韦小姐，不是说好了要集体行动吗？</p>
+            <p>[6] 要么单独，要么一起。</p>
+            <p>[6] 如果你们不放心，就在楼梯口看着我上楼。</p>            
+            <p><span style="color: #666;">[8:31] [高跟鞋踩在地板上的声音]</span></p>
+            <p><span style="color: #666;">[随后是杂乱的脚步声]</span></p>
+            <p>[7] 现在，就剩我们三个了。</p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 95-DI-POST-LUNCH-TENSION ...
+
+    // 录音 96：曼陀罗的梦魇 (Bedroom/Wei) - [6]韦若兰 & [幻觉]
+    "07-Wei-6": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼东侧客房(Wei's Room) - 壁炉台汉白玉石狮底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（伴随明显的幻听与背景音效扭曲）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [窗外的雷雨声依然猛烈。]</span></p>
+            <p>[6] ……疯子。一群疯子……</p>
+            <p><span style="color: #666;">[多次划火柴的声音（刺啦）。]</span></p>
+            <p>[6] 呼……有光就好了。</p>            
+            <p>[6] 嗯？……这是什么味道？</p>
+            <p>[6] 好香……有点像花香？甜甜的……但是喉咙里好苦……</p>            
+            <p><span style="color: #666;">[02:41] [海浪声（哗——哗——）。]</span></p>            
+            <p>[6] 海浪？……怎么会有海浪声？</p>
+            <p>[6] <span style="color: #666;">[03:21] 天气真好啊，是不是，韩宇？</p>                        
+            <p>[6] <span style="color: #666;">[03:42] 不！别离开我！我们可以想办法……</p>
+            <p>[6] <span style="color: #666;">[03:58] 小宝？……</p>                        
+            <p>[6] <span style="color: #666;">[04:09]  呵呵……那块岩石啊……</p>                        
+            <p>[6] <span style="color: #666;">[04:23] 放心吧，太太。我会像看护自己的眼睛一样看护他的。</p>                        
+            <p>[6] <span style="color: #666;">[04:40] 永远……不分开……</p>            
+            <p>[6] <span style="color: #666;">[05:21]  去吧，小宝。</p>
+            <p>[6] <span style="color: #666;">[05:28] 你是个男子汉了。你可以游到的。去证明给他们看。</p>
+            <p>[6] <span style="color: #666;">[07:09] 游远一点……再远一点……</p>                        
+            <p>[6] <span style="color: #666;">[09:27] 我不能去……我不能去……韩宇说……这是为了我们……</p>            
+            <p><span style="color: #666;">[12:31] [窗外的一声炸雷（轰隆！！）]</span></p>
+            <p>[6] <span style="color: #666;">[12:33] 啊！！水！房间里怎么全是水？！</p>
+            <p>[6] <span style="color: #666;">[12:49] 别过来！小宝！别拉我的脚！冷……好冷……</p>
+            <p>[6] <span style="color: #666;">[撞翻了椅子（咣当）的声音]</span> 不是我……呜呜呜……</p>
+            <p>[6] 头好晕……我也要淹死了吗……</p>
+            <p>[6] 救……</p>
+            <p><span style="color: #666;">[13:50] [一声短促凄厉的惊叫]</span></p>
+            <p>[6] 啊——！</p>
+            <p><span style="color: #666;">[人体沉重倒地的声音（扑通）。]</span></p>            
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 96-BE-WEI-HALLUCINATION ...
+
+    // 录音 97：楼上的惊叫 (Dining Room) - [3]鲍乐 & [7]陆伯达 & [10]安医生
+    "20-Dining-3-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅（Dining Room） - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含远处的尖叫声与激烈的奔跑声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：踱步声，疯狂的雷雨声。]</span></p>
+            <p>[3] 医生，你能不能别转了？转得我头晕。坐下来喝口酒吧。</p>
+            <p>[10] 喝？这时候你还能喝得下去？我们就像是在太平间门口排队挂号一样！下一个是谁？是你？还是我？</p>                                    
+            <p>[10] 我们要不……我们要不互相把手绑起来吧？这样就能证明没人能作案了。</p>
+            <p>[7] 好主意，医生。那最后那个结谁来打？谁来保证那个负责绑人的人，不会趁机勒死我们？</p>
+            <p>[3] 陆生说得对。这时候谁也不敢把命交到别人手里。</p>
+            <p>[10] 时间过得太慢了……怎么才过了一刻钟？这雨什么时候才能停？而且现在才下午两点，天黑成什么样了</p>
+            <p>[7] 别看表了。越看越慢。</p>
+            <p><span style="color: #666;">[07:10] [短暂的死寂。只有窗外的雷声。]</span></p>
+            <p>[10] 你们听到了吗？</p>
+            <p>[3] 听到什么？</p>
+            <p>[10] 脚步声。楼上有脚步声。</p>
+            <p>[7] 那是风声。老房子到处都在响。</p>
+            <p>[10] 不……我有种不祥的预感。那个童谣……第五个是‘被蜂蜇死’，第六个是什么？第六个……</p>
+            <p>[10] <span style="color: #666;">[传来一声尖叫]</span></p>
+            <p style="font-size: 1.2em; text-align: center; font-weight: bold;">“啊——！！”</p>
+            <p><span style="color: #666;">[07:49] [椅子被猛烈撞翻的声音（匡当！）。]</span></p>
+            <p>[10] <span style="color: #666;">[惊恐大叫]</span> 是韦小姐！她在叫！</p>
+            <p>[3] 出事了！！</p>
+            <p>[7] 走！上去！别落单！</p>
+            <p><span style="color: #666;">[08:30] [杂乱急促的奔跑声。脚步声在录音中迅速远去，只剩下翻倒的椅子还在微微晃动的声音]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 97-DI-WAITING-FOR-SCREAM ...
+
+    // 录音 98：天花板上的钩子 (Bedroom/Wei) - [ALL]全体人员
+    "08-Wei-3-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼东侧客房(Wei's Room) - 壁炉台汉白玉石狮底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含剧烈咳嗽声、雷声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：房门被猛地撞开（砰！）。急促的脚步声冲进房间。]</span></p>
+            <p>[7] 若兰？若兰！醒醒！</p>
+            <p>[7] 该死，她晕过去了。手这么凉。</p>
+            <p>[10] 别乱动她。让我来。</p>
+            <p>[10] 把头抬高一点。来。</p>
+            <p>[7] 等等。那是什么？</p>
+            <p>[10] 得了！这是碳酸铵！</p>
+            <p>[7] 嗅盐？</p>
+            <p>[10] 对，嗅盐！我是想救她，不是害她！快点！</p>
+            <p>[7] 我自己来。</p>
+            <p>[10] 放在鼻子下面晃一晃。让她缓缓呼吸，从鼻子吸入，从嘴巴呼出。</p>            
+            <p>[6] 咳咳！咳咳咳！……好辣……</p>
+            <p>[10] 好了，醒了。把瓶子拿开。</p>
+            <p>[7] 若兰，你怎么样？刚刚发生了什么？</p>
+            <p>[6] 我……我不知道。我一进房间，关上门……</p>
+            <p>[6] 我就闻到了一股味道。很奇怪的……略带甜味的，但是又很苦涩的花香。</p>
+            <p>[6] 然后我就恍惚了……我看见了好多人。他们在和我说话……他们想拉我下水……</p>
+            <p>[10] 甜味……苦涩的花香……幻觉……</p>
+            <p>[10] 这应该是高浓度的东莨菪碱（Scopolamine）。也就是俗称的‘魔鬼呼吸’。</p>
+            <p>[7] 那是什么玩意儿？毒药？</p>
+            <p>[10] 比毒药更可怕。它是从曼陀罗花里提取的生物碱。它能瞬间抹去人的自由意志，让你变成一具‘听话的行尸走肉’。</p>
+            <p>[10] 我在医学杂志上看过一个骇人听闻的案例。在哥伦比亚，一个富商的新婚妻子被绑匪喷了这个东西。</p>
+            <p>[10] 绑匪只是随口说了一句‘你的丈夫太冷了，需要取暖’。</p>
+            <p>[10] 结果那个女人……那个女人竟然笑着把滚烫的煤油浇在自己身上，然后点了一根火柴，把自己变成了一个‘人体火把’去拥抱她的丈夫！</p>
+            <p>[10] 她被烧成焦炭的时候，脸上甚至还挂着那种……那种幸福又诡异的微笑。这就是东莨菪碱，它能让你微笑着毁灭自己。</p>
+            <p>[6] 人体火把……微笑着……别说了……求你别说了……</p>
+            <p>[7] 够了！你是想吓死她吗？看来凶手是个用毒的高手，他想让你在幻觉中发疯自杀。</p>
+            <p>[6] 曼陀罗……魔鬼呼吸……</p>
+            <p>[7] 看来凶手不仅是个疯子，还是个用毒的高手。他想让你在幻觉中发疯。</p>
+            <p><span style="color: #666;">[02:40] [再次传来脚步声和气喘吁吁的声音]</span></p>
+            <p>[3] 让开让开！来，喝点白兰地。这东西提神。</p>
+            <p><span style="color: #666;">[窗外一道惊雷炸响（轰隆——！！）。震得窗户嗡嗡作响。]</span></p>
+            <p>[6] 不！……</p>
+            <p><span style="color: #666;">[酒杯翻倒在地上的脆响。]</span></p>
+            <p>[7] 好样的，若兰。警惕性很高。</p>
+            <p>[3] 喂！怎么？你觉得我下东西了吗？我好心好意跑去拿酒！</p>
+            <p>[7] 防人之心不可无。鲍Sir，你那酒瓶刚才开过封吗？</p>
+            <p>[7] 我去再拿一瓶没开封的来。若兰，等我一分钟。</p>
+            <p><span style="color: #666;">[03:45] [脚步声远去。]</span></p>
+            <p>[6] 我想……我想喝水……</p>
+            <p>[3] 这杯白兰地真没问题。我根本没动过。白兰地对休克有好处，我才去拿的……好心当成驴肝肺。</p>
+            <p>[10] 嘘……你听到了吗？</p>
+            <p>[3] 什么？</p>
+            <p>[10] 他叫她‘若兰’。三次了。这么亲密……他们俩之间肯定不简单。搞不好早就串通好了。</p>
+            <p>[3] 哼，这对‘狗男女’……</p>
+            <p><span style="color: #666;">[4:30] [急促的脚步声]</span></p>
+            <p>[7] 回来了。封好的，没人动过。我刚把蜡封敲掉。</p>
+            <p>[6] 谢谢……我现在好多了。</p>
+            <p>[7] 那是什么？</p>
+            <p>[3] 什么？……哦，天花板上那个黑黑的圈？</p>
+            <p>[3] 大概是挂吊灯的挂钩吧。就像楼下大厅那种。</p>
+            <p>[7] 卧室里挂大吊灯吗？这位置在床脚，也不合理啊。</p>
+            <p>[3] 谁知道呢。这不是有钱人的房子吗？那对美国夫妇……如果他们想，他们可以在猪圈里挂吊灯。</p>
+            <p>[7] 呵。我还真有点喜欢上你了，肥佬。</p>
+            <p>[3] 去你的。你是个自负的混蛋，陆伯达。</p>
+            <p>[3] 抱歉，韦小姐，我不该说脏话。</p>
+            <p>[6] 没事。你说得对。他就是个混蛋。</p>
+            <p><span style="color: #666;">[06:44] [沉默了一会。]</span></p>
+            <p>[10] 等等……</p>
+            <p>[10] 法官呢？</p>
+            <p>[7] 什么？</p>
+            <p>[10] 我们三个都上来了……刚才那一嗓子尖叫，整栋楼都能听到。法官为什么没来？！</p>
+            <p><span style="color: #666;">[07:10] [又是一道惊雷（咔嚓——轰隆！！）]</span></p>
+            <p>[7] 不对劲。他不来只有两种可能。</p>
+            <p>[7] 要么他在埋伏我们。要么……</p>
+            <p>[3] 要么他出事了！</p>
+            <p>[7] 走！下楼！去找那老头！</p>
+            <p><span style="color: #666;">[02:20] [众人慌乱的脚步声冲出房间。]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 98-BE-RESCUE-WEI ...
+
+    // 录音 99：大法官的退庭 (Living Room) - [ALL]全体人员
+    "14-Living-3-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 西式主客厅 (Living Room) - 古董座钟内侧麦克风</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：中（环境噪音极大，雷雨声几乎盖过人声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：恐怖的暴风雨声。雨点像石头一样砸在玻璃窗上（噼里啪啦）。急促的脚步声冲进客厅。]</span></p>
+            <p>[10] 天呐，在那儿！在那张高背椅上！</p>
+            <p>[3] 法官！……喂！醒醒！</p>
+            <p><span style="color: #666;">[雷声（轰隆——）。]</span></p>
+            <p>[10] 天哪……！！</p>
+            <p>[3] 我的老天爷……他头部中了枪。</p>
+            <p>[3] 这是‘爆头’啊……满脸都是血……</p>
+            <p><span style="color: #666;">[00:29] [急促的衣物摩擦声]</span></p>
+            <p>[6] 医生，你干什么呢？</p>
+            <p>[10] 得把他的头包上！……必须包上才能搬动他！这太惨了！</p>
+            <p>[7] 等等。</p>
+            <p>[7] 你说得对，如果不包上，他的脑浆就要撒一地了，到时候楼梯上全是血。</p>
+            <p>[7] 但是别用你的外套，我去找点别的……比如那块窗帘。</p>
+            <p><span style="color: #666;">[刺啦一声，撕扯布料的声音。]</span></p>
+            <p>[6] 枪击？……你确定吗？我们不是没找到枪吗？</p>
+            <p>[10] 你自己看啊！那个洞还在冒烟呢！你想凑近看看吗？！</p>
+            <p>[6] 不……我不要……</p>
+            <p>[3] 这不可能……这没道理啊！</p>
+            <p>[3] 我们为找那把枪，到处都找遍了！连老鼠洞都掏了！它到底是从哪冒出来的？！</p>
+            <p><span style="color: #666;">[03:50] [炸雷（咔嚓——轰隆！！）。]</span></p>
+            <p>[7] 行了。别研究了。反正他已经死了。</p>
+            <p>[7] 正如童谣里唱的……‘一个进了法院，还剩五个’。法官被判了死刑。</p>            
+            <p>[7] 鲍Sir，搭把手。还是老规矩，把他抬回他自己的房间。</p>
+            <p>[3] 又是我……真晦气。走吧，轻点，别把东西漏出来。</p>
+            <p>[10] 我来扶着头……我来扶着。</p>
+            <p><span style="color: #666;">[06:15] [众人沉重且凌乱的脚步声开始移动。伴随着雷雨声]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 99-LI-JUDGE-DEATH ...
+
+    // 录音 100：消失的枪声 (Corridor) - [ALL]全体人员
+    "11-Corridor-3-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼走廊（Corridor） - 壁灯底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含脚步声、雷声与争吵）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：杂乱的脚步声]</span></p>
+            <p><span style="color: #666;">[众人的喘息声都很重]</span></p>
+            <p>[10] 慢点慢点。</p>
+            <p>[3] 这边。</p>
+            <p><span style="color: #666;">[开门声]</span></p>
+            <p><span style="color: #666;">[04:21] [沉重的脚步声和关门声]</span></p>
+            <p>[3] 刚才……陆生，你下楼去拿那瓶没开封的酒吧？</p>
+            <p>[7] 你也下楼了，鲍Sir。你去拿了那杯白兰地。而且你还离开了好一阵子。</p>
+            <p>[7] 还有你，医生。你也离开了。</p>
+            <p>[10] 我是去拿药！那是为了救人！为了照顾……若兰。</p>
+            <p>[3] 问题是，我们谁都没听到枪响！枪就在楼下开的，总该有点动静吧？</p>
+            <p>[7] 也许凶手用了什么东西当消音器。比如那个天鹅绒软垫，或者是裹了一层毛毯。</p>
+            <p>[10] 呵。这方面你可是专家，陆先生。</p>
+            <p>[10] 我可没开枪爆过谁的头，也没当过雇佣兵。如何无声无息地杀人，那是你的专业领域。</p>
+            <p>[7] 你用脑子想想，医生。</p>
+            <p>[7] 我哪来的时间？跑下楼，去储藏室拿一瓶封好的白兰地，再冲进客厅，用消音手段一枪打死沃格雷夫，还要确保没人听到，然后再跑回二楼？</p>
+            <p>[7] 我有分身术吗？反倒是那个死肥佬，他离开的时间比我长多了。</p>
+            <p>[3] 我是胖！我身体沉！我走路没你那么快行不行？！这也能当罪证？</p>
+            <p><span style="color: #666;">[07:39] [窗外炸起一道惊雷（轰隆！！）。走廊的灯光忽明忽暗。]</span></p>
+            <p>[10] 五个小戏俑，官司打不通……</p>
+            <p>[10] 清官判死刑，五个只剩四。</p>
+            <p>[10] 真的……是真的。一个接一个。</p>
+            <p>[7] 别念那该死的诗了！我现在只想知道一件事——</p>
+            <p>[7] 我的枪呢？！</p>
+            <p>[7] 既然法官是被枪杀的，那我的左轮肯定就在谁身上，或者被藏在谁知道的地方。</p>
+            <p>[3] 你别看我。刚才搜过了，我没有。</p>
+            <p>[10] 也不是我。</p>
+            <p>[6] 嘶……</p>
+            <p>[7] 若兰？怎么了？</p>                                    
+            <p><span style="color: #666;">[10:35] [急促的高跟鞋声]</span></p>
+            <p>[7] 若兰？！你去哪？！</p>
+            <p>[3] 她疯了吗？这种时候乱跑？</p>
+            <p>[7] 该死！快跟上！</p>
+            <p><span style="color: #666;">[01:45] [三个男人杂乱的脚步声紧随其后]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 100-CO-AFTER-JUDGE-DEATH ...
+
+    // 录音 101：地狱狂欢夜 (Dining Room) - [ALL]全体人员
+    "21-Dining-3-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅（Dining Room） - 水晶吊灯中央灯座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（极度嘈杂，人声、音乐与风雨声混杂）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：持续不断的呼啸风声（呜——呜——）。]</span></p>
+            <p><span style="color: #666;">[03:01][持续的沉默，只有风声像冤魂一样在窗外哭嚎。]</span></p>
+            <p>[10] 啊！！！停下！让它停下！</p>
+            <p>[10] 我受不了这风声了！它在喊我的名字！它在哭！‘医生，救救我’……我受不了了！我不要在这儿坐以待毙！我要疯了！</p>
+            <p>[7] 鲍Sir，去把你那盒‘宝贝’拿来。我们要开个派对。</p>
+            <p>[3] 你是说……云土？</p>
+            <p>[7] 全拿来。还有那些酒。韦小姐，去把那台手摇留声机搬过来。我们要在这个坟墓里跳舞。</p>
+            <p><span style="color: #666;">[21:03][留声机发条被用力摇紧的嘎吱声。音乐响起]</span></p>
+            <div style="margin-left: 20px; font-style: italic; color: #555; border-left: 2px solid #999; padding-left: 10px;">
+                   <p>♪ Run rabbit, run rabbit, Run! Run! Run! ♪ <br>(跑吧兔子，跑吧兔子，跑！跑！跑！)</p>
+                   <p>♪ Don't give the farmer his fun! Fun! Fun! ♪ <br>(别让农夫享受到猎杀的乐趣！乐！乐！)</p>
+                </div>
+            <p>[3] 哈……好东西……云端的感觉……我不怕了。去他妈的法官，去他妈的欧文。</p>
+            <p>[7] 敬死亡！敬我们手上沾满的血！干杯！</p>
+            <p>[6] 干杯！</p>
+            <p><span style="color: #666;">[嘈杂的管弦乐]</span></p>
+                <div style="margin-left: 20px; font-style: italic; color: #555; border-left: 2px solid #999; padding-left: 10px;">
+                   <p>♪ He'll get by without his rabbit pie... ♪ <br>(没有兔子派他也饿不死……)</p>
+                   <p>♪ So run rabbit, run rabbit, Run! Run! Run! ♪ <br>(所以跑吧兔子，跑吧兔子，快跑啊！)</p>
+                </div>
+            <p>[6] 听到了吗？Run! Run! Run! 我们就是兔子！谁是那个农夫？是你吗？医生？</p>
+            <p>[10] 手术刀！给我止血钳！快点！</p>
+            <p>[10] 切开这里……看呐！这肝脏是黑的！烂透了！就像我们的心一样！哈哈哈！</p>
+            <p>[3] 钱……全是钱……金条从天花板上掉下来了！陆生，你看到了吗？满屋子都是金光！</p>
+            <p>[7] 是啊，鲍探长。带进棺材里去花吧！</p>
+            <p>[6] 水……好凉的水……他在下面抓我的脚……‘韦老师，救我’……咯咯咯，我才不救你，你游啊，用力游啊！</p>
+            <p>[10] 尸体……满桌子都是尸体！罗福在那儿端菜，法官在那儿喝酒……喂，法官，你的脑浆掉进汤里了！</p>
+            <div style="margin-left: 20px; font-style: italic; color: #555; border-left: 2px solid #999; padding-left: 10px;">
+                <p>♪ 来来来，喝完了这杯再说罢…… ♪</p>
+            </div>
+            <p>[3] 喝完了这杯……再说罢……嗝。没了，没有明天了，君再也不来了……</p>
+            <div style="margin-left: 20px; font-style: italic; color: #555; border-left: 2px solid #999; padding-left: 10px;">
+                <p>♪ 今宵离别后，何日君再来…… ♪</p>
+                <p>♪ 停唱阳关叠，重擎白玉杯…… ♪</p>
+            </div>
+            <p>[7] 再大声点！换张碟！让我们听听那个‘审判者’的声音！让他也来喝一杯！</p>
+            <p style="color: #aaa; font-style: italic;">[唱片声音] 各位女士，各位先生！请安静！！！</p>            
+            <p style="color: #aaa; font-style: italic;">[唱片声音] 你们被控犯有以下罪行……</p>
+            <p style="color: #aaa; font-style: italic;">[唱片声音] 安世昌，一九二五年三月十四日，你因醉酒手术，造成卢吴氏的死亡。</p>
+            <p>[10] 是我欸！是我杀的！那天我喝了一整瓶威士忌！我的手在抖，我不小心切断了她的动脉！血喷得天花板上都是！但我不在乎！我是名医！哈哈哈！</p>
+            <p style="color: #aaa; font-style: italic;">[唱片声音] 鲍乐，一九二八年十月十日，是你作伪证导致了无辜者林得志在赤柱狱中死亡。</p>
+            <p>[3] 还有我！没错！那笔钱够我买半条街！那个穷鬼死在牢里活该！他死了我才能发财！这就是命！</p>
+            <p style="color: #aaa; font-style: italic;">[唱片声音] 韦若兰，一九三五年八月十一日，你在长洲海滩谋害了韩希乐。</p>
+            <p>[6] 淹死他……咕噜咕噜……你看他挣扎的样子像不像一只溺水的小狗？好可爱……终于安静了。</p>
+            <p style="color: #aaa; font-style: italic;">[唱片声音] 赤柱监狱的铁栅已经关闭，你们这些罪人还有什么要替自己辩解的吗？</p>
+            <p>[ALL] 认罪！！我们有罪！！下地狱吧！！</p>
+            <p><span style="color: #666;">[47:08] [一声惊雷炸响]</span></p>
+            <p>[10] <span style="color: #666;">[小声]</span> 鲍警官……鲍警官……醒醒……</p>
+            <p>[3] 干嘛？接着喝啊！这曲子不错！</p>
+            <p>[10] 你看看他们……看那边……那对狗男女。</p>
+            <p>[10] 他们抱在一起……互相喂酒……</p>
+            <p>[10] 也许就是他们……欧文夫妇（Mr. and Mrs. Owen）……是他们！只有他们没疯！他们在看我们笑话！他们在庆祝胜利！</p>
+            <p>[3] 什……什么？</p>            
+            <p>[3] 见鬼！</p>
+            <p><span style="color: #666;">[51:30] [酒瓶被狠狠摔碎在地上的声音（啪啦！！）]</span></p>
+            <div style="margin-left: 20px; font-style: italic; color: #555; border-left: 2px solid #999; padding-left: 10px;">
+                <p>♪ We'll meet again, don't know where, don't know when ♪ <br>(我们会再相见，不知何地，不知何时)</p>
+            </div>
+            <p>[3] 我要去睡了。把这该死的音乐关掉！我也受不了了！</p>
+            <div style="margin-left: 20px; font-style: italic; color: #555; border-left: 2px solid #999; padding-left: 10px;">
+                <p>♪ But I know we'll meet again some sunny day... ♪ <br>(但我知道，某个晴朗的日子我们会再相见……)</p>            </div>
+            <p>[3] 派对结束了。我不陪你们玩了。</p>
+            <div style="margin-left: 20px; font-style: italic; color: #555; border-left: 2px solid #999; padding-left: 10px;">
+                <p>♪ Keep smiling through, just like you always do... ♪ <br>(保持微笑吧，就像你往常那样……)</p>
+            </div>
+            <p><span style="color: #666;">[53:45] [脚步声离去。留声机被关掉的声音]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 100-CO-AFTER-JUDGE-DEATH ...
+
+    // 录音 101：地狱狂欢夜 (Dining Room) - [ALL]全体人员
+    "12-Corridor-3-6-7-10": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼走廊（Corridor） - 壁灯底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（环境安静，关门声清晰可辨）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p>[7] 到了。进去吧。</p>
+            <p>[6] 嗯……我知道。</p>
+            <p>[7] 晚安。</p>
+            <p><span style="color: #666;">[03:21] [关门声。]</span></p>            
+            <p>[3] 呸……狗男女。别以为我不知道你们在打什么主意……</p>
+            <p>[3] 谁也别想进来……谁进来我就砸碎谁的脑袋……</p>
+            <p><span style="color: #666;">[03:35] [关门声。非常暴力的摔门。落锁声。]</span></p>
+            <p>[10] 都疯了……都疯了……</p>
+            <p>[10] 陆先生……你最好祈祷今晚也是个平安夜。但我看……死神已经站在走廊里了。</p>
+            <p>[7] 回你的房间去，医生。别梦游。</p>
+            <p><span style="color: #666;">[04:07] [关门声。落锁声。]</span></p>            
+            <p><span style="color: #666;">[04:16] [关门声]</span></p>            
+            <p><span style="color: #666;">[21:30][吱呀——]</span></p>
+            <p><span style="color: #666;">[某扇门被重新打开了。]</span></p>
+            <p><span style="color: #666;">[没有脚步声。]</span></p>
+            <p><span style="color: #666;">[21:57][关门声。咔哒。]</span></p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
+    // ... 上接 102-CO-GOODNIGHT ...
+
+    // 录音 103：暴雨中的同盟 (Bedroom/Wei) - [7]陆伯达 & [6]韦若兰
+    "09-Wei-6-7": `
+        <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
+            <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 二楼东侧客房(Wei's Room) - 壁炉台汉白玉石狮底座内侧</p>
+            <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含低语、衣物摩擦与床铺撞击声）</p>
+        </div>
+        <div style="text-align: justify;">
+            <p><span style="color: #666;">[00:00] [背景底噪：门锁被轻轻转动的声音（咔哒）。]</span></p>
+            <p><span style="color: #666;">[门开了又迅速关上。反锁。]</span></p>
+            <p>[6] ……是你吗？</p>
+            <p>[7] 除了我还能是谁。那个疯医生？还是那个死肥佬？</p>
+            <p>[6] 我以为你不会来了……我好怕。我一闭上眼就看见小宝在水里抓我……</p>
+            <p>[7] 嘘……</p>
+            <p>[7] 听着，若兰。现在的局势很清楚了。安医生疯了，鲍乐是个废物。凶手就在他们中间，或者……躲在暗处。</p>
+            <p>[7] 但只要我们两个在一起，没人能动你。</p>
+            <p>[6] 我相信你……伯达。你是这座岛上唯一的依靠。</p>
+            <p>[6] 我冷……抱紧我。</p>
+            <p>[7] 这可是你自己选的。上了我的船，就没退路了。</p>
+            <p>[6] 我不要退路。我只要活过今晚……</p>
+            <p><span style="color: #666;">[04:45] [激烈的拥吻声。沉重的呼吸声]</span></p>
+            <p><span style="color: #666;">[老旧的弹簧发出的吱呀声（嘎吱——嘎吱——）。]</span></p>
+            <p>[7] <span style="color: #666;">[低吼]</span> ……若兰。</p>
+            <p>[6] 嗯……轻点……别让他们听到……</p>
+            <p>[7] 让他们听。让他们知道你是谁的人。让他们嫉妒得发疯。</p>
+            <p><span style="color: #666;">[09:10] [录音进入了一段持续的、充满原始兽性的声响片段。]</span></p>
+            <p><span style="color: #666;">[混合着窗外狂暴的雷雨声]</span></p>
+            <p>[6] 啊……活着……我们还活着……</p>
+            <p>[7] 没错……我们不会死……该死的是他们……</p>          
+            <p>[7] 睡吧。我守着门。今晚连只苍蝇也飞不进来。</p>
+            <p>[6] 晚安……我的保护神。</p>
+            <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 10px; color: #666;">[录音结束]</div>
+        </div>
+    `,
 };

@@ -356,6 +356,136 @@ const db_evidence = {
 
         </div>
     `,
+    EVI_WARGRAVE_DIAGNOSIS: `
+   <div class="evidence-doc" style="
+        font-family: 'Courier New', Courier, monospace; 
+        background-color: #f3eacb; /* 明显的陈旧泛黄纸色 */
+        background-image: 
+            radial-gradient(circle at 20% 30%, rgba(160, 82, 45, 0.08) 0%, transparent 30%), /* 模拟污渍1 */
+            radial-gradient(circle at 80% 80%, rgba(139, 69, 19, 0.08) 0%, transparent 40%); /* 模拟污渍2 */
+        color: #3e3832; /* 褪色的深褐色墨水 */
+        padding: 40px; 
+        border: 1px solid #d4c5a9; 
+        max-width: 650px; 
+        margin: 0 auto;
+        font-size: 0.9em;
+        position: relative;
+        text-shadow: 0 0 0.5px rgba(62, 56, 50, 0.3); /* 模拟墨水晕染 */
+        box-shadow: 
+            5px 5px 15px rgba(0,0,0,0.3), /* 强烈的立体投影 */
+            inset 0 0 80px rgba(101, 67, 33, 0.35); /* 极明显的边缘氧化发黑效果 */
+        transform: rotate(-0.5deg); /* 轻微歪斜，增加真实感 */
+    ">
+        <div style="
+            position: absolute; 
+            top: 33%; 
+            left: 0; 
+            right: 0; 
+            height: 1px; 
+            background: rgba(0,0,0,0.1); 
+            box-shadow: 0 1px 0 rgba(255,255,255,0.4);
+        "></div>
+        <div style="
+            position: absolute; 
+            top: 66%; 
+            left: 0; 
+            right: 0; 
+            height: 1px; 
+            background: rgba(0,0,0,0.1); 
+            box-shadow: 0 1px 0 rgba(255,255,255,0.4);
+        "></div>
+
+        <div style="
+            position: absolute; 
+            top: 30px; 
+            right: 30px; 
+            border: 4px double #8b0000; 
+            color: #8b0000; 
+            font-weight: bold; 
+            padding: 8px 20px; 
+            transform: rotate(-12deg); 
+            font-size: 1.2em; 
+            opacity: 0.6; /* 褪色严重 */
+            letter-spacing: 3px;
+            mix-blend-mode: multiply; /* 正片叠底，印在纸纹上 */
+            mask-image: linear-gradient(45deg, black 40%, transparent 45%, black 50%); /* 模拟印章盖得不实 */
+            -webkit-mask-image: linear-gradient(45deg, black 40%, transparent 45%, black 50%);
+        ">CONFIDENTIAL</div>
+
+        <div style="text-align: center; border-bottom: 2px solid #444; padding-bottom: 10px; margin-bottom: 20px;">
+            <h2 style="margin: 0; font-family: 'Times New Roman', serif; text-transform: uppercase; letter-spacing: 2px; color: #111;">Clinical Pathology Laboratory</h2>
+            <p style="margin: 5px 0 0 0; font-size: 0.8em; font-weight: bold;">104 HARLEY STREET, LONDON, W.1</p>
+            <p style="margin: 0; font-size: 0.8em;">Tel: WELbeck 1849</p>
+        </div>
+
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 0.95em; border-color: #888;">
+            <tr>
+                <td style="padding: 5px; border: 1px solid #888; width: 15%; background: rgba(0,0,0,0.02);"><strong>PATIENT:</strong></td>
+                <td style="padding: 5px; border: 1px solid #888; width: 45%;">WARGRAVE, Lawrence (Mr. Justice)</td>
+                <td style="padding: 5px; border: 1px solid #888; width: 15%; background: rgba(0,0,0,0.02);"><strong>AGE:</strong></td>
+                <td style="padding: 5px; border: 1px solid #888; width: 25%;">72</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; border: 1px solid #888; background: rgba(0,0,0,0.02);"><strong>DATE:</strong></td>
+                <td style="padding: 5px; border: 1px solid #888;">June 5th, 1939</td>
+                <td style="padding: 5px; border: 1px solid #888; background: rgba(0,0,0,0.02);"><strong>REF NO:</strong></td>
+                <td style="padding: 5px; border: 1px solid #888;">39/GL/605</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; border: 1px solid #888; background: rgba(0,0,0,0.02);"><strong>DOCTOR:</strong></td>
+                <td style="padding: 5px; border: 1px solid #888;">Dr. Gordon Lewis</td>
+                <td style="padding: 5px; border: 1px solid #888; background: rgba(0,0,0,0.02);"><strong>SPECIMEN:</strong></td>
+                <td style="padding: 5px; border: 1px solid #888;">Gastric Biopsy</td>
+            </tr>
+        </table>
+
+        <div style="margin-bottom: 15px;">
+            <p style="margin: 0 0 5px 0; font-weight: bold; text-decoration: underline; color: #000;">CLINICAL SUMMARY:</p>
+            <p style="margin: 0;">Patient presents with acute epigastric pain, severe dysphagia, and significant weight loss (approx. 1 stone in 6 weeks). Generalized weakness and fatigue reported.</p>
+        </div>
+
+        <hr style="border: 0; border-top: 1px dashed #666; margin: 15px 0;">
+
+        <div style="margin-bottom: 15px;">
+            <p style="margin: 0 0 5px 0; font-weight: bold; text-decoration: underline; color: #000;">PATHOLOGICAL FINDINGS:</p>
+            
+            <p style="margin-bottom: 10px;"><strong>Macroscopic:</strong><br>
+            Three fragments of greyish-white, friable tissue. Necrotic areas evident.</p>
+
+            <p style="margin-bottom: 10px;"><strong>Microscopic:</strong><br>
+            Sections reveal an infiltrating <strong>Adenocarcinoma</strong> (腺癌) of the gastric cardia. The tumor cells are poorly differentiated (Grade IV) with marked nuclear pleomorphism and high mitotic activity. Deep invasion into the muscularis propria is observed.</p>
+            
+            <p style="margin: 0;">Evidence of lymphatic invasion suggests high probability of regional metastasis.</p>
+        </div>
+
+        <div style="border: 3px solid #333; padding: 15px; margin: 20px 0; background-color: rgba(255,255,255,0.4);">
+            <p style="margin: 0 0 5px 0;"><strong>DIAGNOSIS:</strong></p>
+            <p style="font-size: 1.2em; font-weight: bold; text-align: center; margin: 10px 0; letter-spacing: 1px;">ADVANCED GASTRIC CARCINOMA (TERMINAL)</p>
+            <p style="margin: 0; text-align: center;"><strong>PROGNOSIS:</strong> INOPERABLE. Life expectancy est. 6-8 weeks.</p>
+        </div>
+
+        <div style="margin-bottom: 30px;">
+            <p style="margin: 0 0 5px 0; font-weight: bold; text-decoration: underline; color: #000;">REMARKS / RECOMMENDATIONS:</p>
+            <p style="margin: 0;">Patient exhibits signs of <strong>Severe Cachexia</strong> (重度恶病质/极度衰竭). Muscular atrophy is noted.</p>
+            <p style="margin-top: 5px; font-style: italic;">
+                <u>NOTE:</u> Any strenuous physical exertion is strictly contraindicated due to risk of cardiac failure. Palliative care only. Morphine Sulphate prescribed for pain management.
+            </p>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: 40px;">
+            <div style="font-size: 0.8em; color: #666;">
+                Report approved by:<br>
+                Pathology Dept.<br>
+                St. Luke's Hospital
+            </div>
+            <div style="text-align: center;">
+                <div style="font-family: 'Brush Script MT', cursive; font-size: 1.5em; border-bottom: 1px solid #444; width: 200px; margin-bottom: 5px; transform: rotate(-2deg);">Gordon Lewis</div>
+                <p style="margin: 0; font-size: 0.8em;">GORDON LEWIS, M.D., F.R.C.P.</p>
+                <p style="margin: 0; font-size: 0.8em;">Chief Pathologist</p>
+            </div>
+        </div>
+    </div>
+`,
     // 在这里继续添加以 EVI- 开头的证物...
 
 
