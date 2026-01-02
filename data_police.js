@@ -209,7 +209,7 @@ const db_police = {
                         <tr>
                             <td style="border: 1px solid #666; padding: 5px; text-align: center;"><strong>No. 03</strong></td>
                             <td style="border: 1px solid #666; padding: 5px; text-align: center;">男性<br>壮年</td>
-                            <td style="border: 1px solid #666; padding: 5px;"><strong>砸伤。</strong> 头部及肩部被高空坠落之重物（大理石钟）彻底砸烂，甚至无法辨认面部。</td>
+                            <td style="border: 1px solid #666; padding: 5px;"><strong>刀具捅死。</strong> 腹部中刀，重要脏器受损，呼吸衰竭而死。</td>
                         </tr>
                         <tr>
                             <td style="border: 1px solid #666; padding: 5px; text-align: center;"><strong>No. 04</strong></td>
@@ -505,8 +505,93 @@ const db_police = {
                 <p style="margin: 0; font-size: 0.8em;">证人签署: 陈阿水 (画押)</p>
             </div>
         </div>
-    `
+    `,
 
+// 结案报告：代号‘欧文’
+    "DOC-CASE-CLOSED-REPORT": `
+        <div class="evidence-doc" style="font-family: 'Courier New', monospace; background-color: #fcfcfc; color: #000; padding: 25px; border: 2px solid #333; position: relative;">
+            
+            <div style="position: absolute; top: 20px; right: 20px; border: 3px double #b22222; color: #b22222; padding: 5px 10px; font-weight: bold; transform: rotate(-15deg); opacity: 0.8; font-size: 1.2em;">
+                CONFIDENTIAL<br>机密档案
+            </div>
 
+            <div style="text-align: center; border-bottom: 2px solid #000; padding-bottom: 15px; margin-bottom: 20px;">
+                <h3 style="margin: 0; letter-spacing: 2px;">皇家香港警务处</h3>
+                <h4 style="margin: 5px 0; font-weight: normal;">刑事侦缉处 (C.I.D.) · 结案陈词</h4>
+            </div>
+
+            <div style="font-size: 0.9em; line-height: 1.6;">
+                <p><strong>【案件编号】</strong> HK-1939-AUG-11</p>
+                <p><strong>【案发地点】</strong> 西贡 · 兵头洲 (Soldier Island)</p>
+                <p><strong>【案件性质】</strong> <span style="color: red; font-weight: bold;">悬案 (COLD CASE) - 档案封存</span></p>
+                <br>
+                
+                <p style="background-color: #eee; padding: 5px; font-weight: bold;">[ 1. 现场勘查综述 ]</p>
+                <p>本处探员登岛后，确认岛上十名人士（名单见附件 A）全数身亡。经法医剖验，各死者之死亡时间与现场日志大致吻合。</p>
+                <p>虽然现场种种迹象指向沃格雷夫法官 (Lawrence Wargrave) 为幕后主脑，唯经鉴证科重组案情，仍有关键疑点无法解释。</p>
+              
+                <br>
+
+                <p style="background-color: #eee; padding: 5px; font-weight: bold;">[ 2. 资金流向追踪 ]</p>
+                <p>经商业罪案调查科追查，购买该岛及安排行程之资金，均经由一名被称为“白手套”的中间人处理。</p>
+                <p><strong>疑人姓名：</strong> 莫立士</p>
+                <p><strong>状态：</strong> 已死亡（8月8日）。</p>
+                <p><strong>备注：</strong> 该名疑犯于案发前夕在其住所因服用过量药物暴毙。</strong>。</p>
+                <br>
+                
+
+            </div>
+
+            <br><br>
+            
+            <div style="border: 1px dashed #000; padding: 10px; margin: 10px 0; font-style: italic; background-color: #fffbe6;">
+                    我们还发现了一段已经删除的录音，只有经过下列操作才可以复原。
+                    "真理与谎言，各执一词。
+                    生路与死路，只有一扇。
+                    你在一个分岔路口，一条路通向天堂，一条路通向地狱。 路口有两个守卫：
+                    <br><br>
+                    <strong>一个守卫只说真话，一个守卫尽是谎言。</strong>
+                    <br>
+                    <strong>你只能向其中一个守卫提一个问题，就必须确定哪条路是天堂。</strong>
+                    <br><br>
+                    这是唯一的解法。除此之外，皆为赌博。"
+                </div>
+
+                <p><strong>技术科警告：</strong> 该系统具备自毁功能。您只有<strong>3次</strong>选择正确通道的机会。</p>
+            </div>
+
+            <br><br>
+            
+            <div style="background-color: #000; color: #d65d0e; padding: 15px; font-family: monospace; border: 1px solid #d65d0e; font-size: 0.85em;">
+                <p>> WARNING: LOGIC GATE DETECTED.</p>
+                <p>> ATTEMPTS ALLOWED: <span style="color: red; font-size: 1.2em; font-weight: bold;">3</span></p>
+                <p>> STATUS: <span style="animation: blink 1s infinite;">WAITING FOR CHALLENGER...</span></p>
+                <br>
+                
+                <div 
+                    id="btn-start-game"
+                    onclick="initTwoDoorsPuzzle()"
+                    style="
+                        background-color: #d65d0e; 
+                        color: #000; 
+                        padding: 10px; 
+                        text-align: center; 
+                        cursor: pointer; 
+                        font-weight: bold;
+                        border: 1px solid #d65d0e;
+                        transition: all 0.3s;
+                    "
+                    onmouseover="this.style.backgroundColor='#fff'"
+                    onmouseout="this.style.backgroundColor='#d65d0e'"
+                >
+                    [ > 接入逻辑终端 (ONE SHOT) < ]
+                </div>
+            </div>
+
+            <style>
+                @keyframes blink { 50% { opacity: 0; } }
+            </style>
+        </div>
+    `,
     // 在这里继续添加以 DOC- 开头的档案...
 };

@@ -388,6 +388,22 @@ const audioClues = {
     "14-Living-3-6-7-10":[
         "11-Corridor-3-6-7-10"
     ],
+    "13-Corridor-3-6-7":[
+        "10-Wei-3-6-7"
+    ],
+    "10-Wei-3-6-7":[
+        "22-Dining-3-6-7"
+    ],
+    "23-Dining-3":[
+        "15-Living-6-7"
+    ],
+    "15-Living-6-7":[
+        "24-Dining-6-7"
+    ],
+     "11-Wei-6":[
+        "12-Wei-5-6"
+    ],
+    
    
 };
 
@@ -991,11 +1007,12 @@ if (key === "09-Wei-6-7") {
             <hr style="border: 0; border-top: 1px solid #444; margin: 30px 0;">
 
             <div style="color: #aaa; font-style: italic; margin-bottom: 30px; font-size: 1.1em;">
-                "四个小戏俑，出海去捕鱼；<br>
-                <span style="color: #b22222;">红鱼骗了人</span>，四个只剩三..."
+                "四个小戏俑，出海去逞能；<br>
+                <span style="color: #b22222;">青鱼吞落肚</span>，四个只剩三..."
             </div>
             
             <div 
+            onclick="processCommand('06-Bao-3')"
                 class="next-chapter-btn"
                 style="
                     color: #fff; 
@@ -1027,6 +1044,89 @@ if (key === "09-Wei-6-7") {
         </style>
     `;
 }
+// ... 现有的其他判断代码 ...
+
+    // ============================================================
+    // ★ 新增：终章结算 (当播放完最后一个录音 12-Wei-5-6 时触发)
+    // ============================================================
+    if (key === "12-Wei-5-6") {
+        html += `
+            <br><br>
+            <div style="border-top: 2px dashed #444; margin-top: 20px; padding-top: 20px;"></div>
+            
+            <div class="chapter-end-screen" style="
+                background-color: #080808; 
+                border: 1px solid #b22222; 
+                padding: 40px; 
+                text-align: center; 
+                font-family: 'Courier New', monospace; 
+                animation: fadeIn 3s ease-in;
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+            ">
+                <div style="font-size: 3.5em; color: #b22222; letter-spacing: 8px; margin-bottom: 10px; text-shadow: 0 0 20px #500; font-weight: bold;">
+                    GAME OVER
+                </div>
+                
+                <div style="font-size: 1.3em; color: #666; margin-bottom: 40px; border-bottom: 1px solid #333; display: inline-block; padding-bottom: 10px; letter-spacing: 2px;">
+                    终章：孤绝之岛 - 完
+                </div>
+
+                <div style="text-align: left; width: 85%; margin: 0 auto; color: #888; font-size: 0.9em; line-height: 2.0; font-family: 'Courier New';">
+                    <p>> Timeline End: 14:10, August 11, 1939</p>
+                    <p>> Life Signs Monitoring: <span style="color: #b22222; font-weight: bold;">0 / 10 DETECTED</span></p>
+                    <p>> Final Diagnosis: <span style="color: #fff; background-color: #b22222; padding: 0 5px;">AND THEN THERE WERE NONE</span></p>
+                    <p>> Terminating Audio Reconstruction... [OK]</p>
+                    <br>
+                    <p class="blink-text" style="color: #d65d0e;">> ⚠ ALERT: NEW CLASSIFIED FILE DECRYPTED.</p>
+                    <p>> Source: Scotland Yard (C.I.D.)</p>
+                </div>
+
+                <hr style="border: 0; border-top: 1px solid #444; margin: 30px 0;">
+
+                <div style="color: #aaa; font-style: italic; margin-bottom: 30px; font-size: 1.1em;">
+                    "一个小戏俑，孤单又伶仃；<br>
+                    <span style="color: #b22222;">上吊了残生</span>，一个也不剩。"
+                </div>
+                
+                <div 
+                    onclick="processCommand('DOC-CASE-CLOSED-REPORT')" 
+                    class="next-chapter-btn"
+                    style="
+                        color: #fff; 
+                        background-color: #333;
+                        border: 1px solid #fff; 
+                        padding: 18px 30px; 
+                        display: inline-block; 
+                        font-size: 1.0em; 
+                        cursor: pointer; 
+                        transition: all 0.3s;
+                        font-weight: bold;
+                        letter-spacing: 2px;
+                        margin-top: 10px;
+                    "
+                    onmouseover="this.style.backgroundColor='#fff'; this.style.color='#000'; this.style.boxShadow='0 0 15px #fff';"
+                    onmouseout="this.style.backgroundColor='#333'; this.style.color='#fff'; this.style.boxShadow='none';"
+                >
+                    ACCESS FINAL REPORT (查看结案报告) ▶
+                </div>
+                
+                <p style="margin-top: 20px; font-size: 0.8em; color: #444;">[ R.C.P.D SYSTEM DISCONNECTED ]</p>
+            </div>
+            
+            <style>
+                @keyframes fadeIn {
+                    from { opacity: 0; filter: blur(5px); }
+                    to { opacity: 1; filter: blur(0); }
+                }
+                .blink-text {
+                    animation: blinker 1.5s linear infinite;
+                }
+                @keyframes blinker {
+                    50% { opacity: 0; }
+                }
+            </style>
+        `;
+    }
     // ============================================================
 
     // 3. 渲染到屏幕
@@ -1112,39 +1212,325 @@ document.addEventListener('contextmenu', function(e) {
     return false;
 });
 
-// [防御 2] 禁用开发者工具快捷键
-document.onkeydown = function(e) {
-    // F12
-    if (event.keyCode == 123) {
-        return false;
+
+
+
+
+
+
+
+// ==================== 5. 天堂与地狱之门 (The Two Doors) ====================
+
+// ==================== 5. 天堂与地狱之门 (The Two Doors) ====================
+
+// ==================== 5. 天堂与地狱之门 (The Two Doors) ====================
+
+// 游戏状态
+let doorState = {
+    step: 0,           // 0:选人, 1:选问题, 2:看回答/选门
+    safeDoor: null,    // 'LEFT' or 'RIGHT'
+    liarGuard: null,   // 'LEFT' or 'RIGHT'
+    selectedGuard: null, // 玩家问了谁
+    guardPointTo: null,  // 守卫指了哪边 (仅用于问题1和3)
+    questionIndex: 0,    // 记录玩家问了第几个问题
+    lives: 3           
+};
+
+// --- 初始化游戏 ---
+function initTwoDoorsPuzzle() {
+    if (localStorage.getItem("MORRIS_DATA_WIPED") === "true") {
+        alert("错误：数据扇区已物理损毁。录音已永久删除。");
+        return;
     }
-    // Ctrl+Shift+I (打开开发者工具)
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-        return false;
+    if (state.list_cache.includes("113-HIDDEN-MORRIS-MONOLOGUE")) {
+        renderPassage("113-HIDDEN-MORRIS-MONOLOGUE");
+        state.currentView = "file_view";
+        saveGame();
+        return;
     }
-    // Ctrl+Shift+J (打开开发者工具)
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-        return false;
+    doorState.lives = 3;
+    randomizeParams(); 
+    renderDoorGame();
+}
+
+function randomizeParams() {
+    doorState.safeDoor = Math.random() < 0.5 ? 'LEFT' : 'RIGHT';
+    doorState.liarGuard = Math.random() < 0.5 ? 'LEFT' : 'RIGHT'; 
+    doorState.step = 0;
+}
+
+// --- 渲染游戏主界面 ---
+function renderDoorGame() {
+    window.scrollTo(0, 0);
+    
+    // 生命条
+    let lifeBar = "";
+    for (let i = 0; i < 3; i++) {
+        lifeBar += (i < doorState.lives) ? `<span style="color:#0f0">■</span> ` : `<span style="color:#333">□</span> `;
     }
-    // Ctrl+Shift+C (审查元素)
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-        return false;
+
+    let html = `
+        <div id="door-terminal" style="
+            background-color: #000; 
+            border: 4px double #d65d0e; 
+            padding: 30px; 
+            font-family: 'Courier New', monospace; 
+            color: #d65d0e; 
+            min-height: 90vh; 
+            margin: 0 auto;
+            max-width: 800px;
+            text-align: center;
+            position: relative;
+        ">
+            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid #d65d0e; padding-bottom: 15px; margin-bottom: 30px;">
+                <span style="font-weight: bold; text-shadow: 0 0 10px #d65d0e;">LOGIC GATE</span>
+                <span>ATTEMPTS: [ ${lifeBar} ]</span>
+            </div>
+    `;
+
+    // ========== 阶段 0: 选人 ==========
+    if (doorState.step === 0) {
+        html += `
+            <div style="font-size: 1.1em; line-height: 1.8; color: #ccc; margin-bottom: 40px; text-align: left; border: 1px solid #333; padding: 20px;">
+                <p>你在一个分岔路口。面前有两扇门，和两个守卫。</p>
+                <p>一条路通向<span style="color:#0f0">天堂</span>，一条路通向<span style="color:red">地狱</span>。</p>
+                <ul style="list-style: none; padding: 0;">
+                    <li>一个守卫永远只说 <strong>真话</strong>。</li>
+                    <li>一个守卫永远只说 <strong>假话</strong>。</li>
+                </ul>
+                <p style="color: #d65d0e; font-weight: bold;">你不知道谁才是说真话的人。你只能向其中一人提一个问题。</p>
+            </div>
+
+            <p style="margin-bottom: 20px;">请选择你要询问的对象：</p>
+
+            <div style="display: flex; justify-content: center; gap: 30px;">
+                <div onclick="selectGuard('LEFT')" class="guard-btn">
+                    <div style="font-size: 3em;">👮‍♂️</div>
+                    <div>左侧守卫</div>
+                </div>
+                <div onclick="selectGuard('RIGHT')" class="guard-btn">
+                    <div style="font-size: 3em;">👮‍♂️</div>
+                    <div>右侧守卫</div>
+                </div>
+            </div>
+        `;
     }
-    // Ctrl+U (查看源代码)
-    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-        return false;
+
+    // ========== 阶段 1: 选问题 ==========
+    else if (doorState.step === 1) {
+        let guardName = doorState.selectedGuard === 'LEFT' ? '左侧' : '右侧';
+        html += `
+            <p style="font-size: 1.2em; margin-bottom: 30px;">
+                你走到了 <span style="color: #fff;">${guardName}守卫</span> 面前。<br>
+                他冷冷地看着你。请慎重选择你的问题：
+            </p>
+
+            <div style="text-align: left; display: inline-block; width: 100%;">
+                <div onclick="askQuestion(1)" class="question-btn">
+                    [1] "哪扇门是生路？" <br>
+                    <span style="font-size: 0.8em; color: #666;"></span>
+                </div>
+
+                <div onclick="askQuestion(2)" class="question-btn">
+                    [2] "你是说谎的那个人吗？" <br>
+                    <span style="font-size: 0.8em; color: #666;">(个人身份提问)</span>
+                </div>
+
+                <div onclick="askQuestion(3)" class="question-btn" style="border-color: #d65d0e;">
+                    [3] "如果我问另一个人哪条是生路，他会指哪条？" <br>
+                    <span style="font-size: 0.8em; color: #666;">(特殊提问)</span>
+                </div>
+            </div>
+        `;
     }
-    // Ctrl+S (保存网页 - 防止直接下载)
-    if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
-        return false;
+
+    // ========== 阶段 2: 守卫回答 & 选门 (★重点修改) ==========
+    else if (doorState.step === 2) {
+        let pointText = doorState.guardPointTo === 'LEFT' ? '左边的门' : '右边的门';
+        
+        // ★ 根据不同的问题，生成不同的剧情描述
+        let feedbackHTML = "";
+        
+        if (doorState.questionIndex === 1) {
+            // 问题：哪扇门是生路？
+            feedbackHTML = `
+                <p style="color: #aaa;">你直接询问了生路的位置。</p>
+                <p style="color: #fff; margin-top:10px;">守卫没有犹豫，直接抬手指向了 —— <br>
+                <span style="color: yellow; font-size: 1.2em; font-weight: bold;">${pointText}</span></p>
+            `;
+        } 
+        else if (doorState.questionIndex === 2) {
+            // 问题：你是骗子吗？
+            // ★ 修改：两者都回答“不是”，并且不指路
+            feedbackHTML = `
+                <p style="color: #aaa;">你盯着他的眼睛问：“你是那个说谎的人吗？”</p>
+                <p style="color: #fff; margin-top:10px;">守卫面无表情，冷冷地回答了一个词：</p>
+                <p style="color: yellow; font-size: 1.5em; font-weight: bold; margin: 15px 0;">"NO" (不是)</p>
+                <p style="color: #666; font-size: 0.9em;">
+                    他没有指出哪扇门是生路。你只能靠运气了...)
+                </p>
+            `;
+        } 
+        else if (doorState.questionIndex === 3) {
+            // 问题：逻辑陷阱
+            feedbackHTML = `
+                <p style="color: #aaa;">你抛出了那个复杂的问题。</p>
+                <p style="color: #fff; margin-top:10px;">守卫愣了一下，似乎开始思考了。<br>
+                他最终颤抖着抬起手，指向了 —— <br>
+                <span style="color: yellow; font-size: 1.2em; font-weight: bold;">${pointText}</span></p>
+            `;
+        }
+
+        html += `
+            <div style="background-color: #111; padding: 20px; border: 1px solid #d65d0e; margin-bottom: 40px;">
+                <p style="color: #888; font-size: 0.9em; border-bottom: 1px dashed #444; padding-bottom: 5px; margin-bottom: 10px;">系统反馈</p>
+                ${feedbackHTML}
+            </div>
+
+            <p style="color: red; margin-bottom: 20px;">
+                ⚠ 警告：基于该回答，做出你的最后选择。<br>
+                (剩余机会: ${doorState.lives})
+                每次都会重置。
+            </p>
+            <p>你要推开哪扇门？</p>
+
+            <div style="display: flex; justify-content: center; gap: 40px; margin-top: 20px;">
+                <div onclick="chooseDoor('LEFT')" class="door-btn">
+                    🚪 左门 (LEFT)
+                </div>
+                <div onclick="chooseDoor('RIGHT')" class="door-btn">
+                    🚪 右门 (RIGHT)
+                </div>
+            </div>
+        `;
+    }
+
+    html += `
+            <div style="margin-top: 50px; border-top: 1px solid #333; padding-top: 20px;">
+                <span onclick="processCommand('DOC-CASE-CLOSED-REPORT')" style="cursor: pointer; color: #666;">[ 放弃并断开连接 ]</span>
+            </div>
+            
+            <div id="wipe-overlay" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 100; flex-direction: column; justify-content: center; align-items: center;">
+                <div id="wipe-title" style="font-size: 4em; color: red; border: 5px solid red; padding: 20px; font-weight: bold; transform: rotate(-10deg);">ACCESS DENIED</div>
+                <p id="wipe-msg" style="color: red; margin-top: 30px; font-size: 1.5em;">LIFE LOST</p>
+                <p id="wipe-sub" style="color: #666;">Resetting logic matrix...</p>
+            </div>
+        </div>
+
+        <style>
+            .guard-btn, .door-btn {
+                border: 2px solid #555; padding: 20px; width: 120px; cursor: pointer; transition: 0.3s;
+            }
+            .guard-btn:hover, .door-btn:hover {
+                border-color: #d65d0e; background-color: #222; transform: translateY(-5px);
+            }
+            .question-btn {
+                border: 1px solid #555; padding: 15px; margin-bottom: 15px; cursor: pointer; transition: 0.2s;
+            }
+            .question-btn:hover {
+                background-color: #d65d0e; color: #000; font-weight: bold;
+            }
+        </style>
+    `;
+
+    printToScreen(html, false);
+}
+
+// --- 逻辑处理：选人 ---
+function selectGuard(side) {
+    doorState.selectedGuard = side;
+    doorState.step = 1;
+    renderDoorGame();
+}
+
+// --- 逻辑处理：问问题 ---
+function askQuestion(qIndex) {
+    doorState.questionIndex = qIndex;
+
+    const isLiar = (doorState.selectedGuard === doorState.liarGuard);
+    const safe = doorState.safeDoor;
+    const dead = (safe === 'LEFT' ? 'RIGHT' : 'LEFT');
+    
+    let answer = null; // 这个变量代表"守卫指的方向"，如果是null则代表不指
+
+    if (qIndex === 1) { 
+        // [1] "哪扇门是生路？" (诚实指生，骗子指死)
+        answer = isLiar ? dead : safe;
+    } 
+    else if (qIndex === 2) { 
+        // [2] "你是骗子吗？" 
+        // 仅仅回答"NO"，不指路。
+        // 这里 answer 保持为 null 也可以，或者赋个随机值但在 UI 里不显示
+        answer = null; 
+    } 
+    else if (qIndex === 3) { 
+        // [3] "问另一人哪条是生路？" (必指死路)
+        answer = dead;
+    }
+
+    doorState.guardPointTo = answer;
+    doorState.step = 2; // 进入下一阶段
+    renderDoorGame();
+}
+
+// --- 逻辑处理：选门 ---
+function chooseDoor(choice) {
+    if (choice === doorState.safeDoor) {
+        // === 成功 ===
+        const term = document.getElementById('door-terminal');
+        term.innerHTML = `
+            <div style="padding-top: 20vh; animation: fadeIn 2s;">
+                <h1 style="color: #0f0; font-size: 3em;">ACCESS GRANTED</h1>
+                <p style="color: #fff; font-size: 1.2em;">
+                    逻辑闭环验证通过。<br>
+                    欢迎回来，Master Morris。
+                </p>
+                <br>
+                <p style="color: #0f0;">正在解密隐藏录音...</p>
+            </div>
+        `;
+        
+        setTimeout(() => {
+            let key = "00-Living-0"; 
+            if (!state.list_cache.includes(key)) {
+                state.list_cache.push(key);
+            }
+            identifyAndSetListType(key);
+            renderPassage(key);
+            state.currentView = "file_view";
+            saveGame();
+        }, 3000);
+
+    } else {
+        // === 失败 ===
+        doorState.lives--;
+        const overlay = document.getElementById('wipe-overlay');
+        const title = document.getElementById('wipe-title');
+        const msg = document.getElementById('wipe-msg');
+        
+        overlay.style.display = "flex";
+
+        if (doorState.lives > 0) {
+            title.innerText = "ACCESS DENIED";
+            msg.innerText = `INCORRECT CHOICE. (${doorState.lives} LIVES LEFT)`;
+            setTimeout(() => {
+                randomizeParams(); // 重置谜题
+                renderDoorGame();
+            }, 2000);
+        } else {
+            title.innerText = "TERMINATED";
+            msg.innerText = "DATA SECTOR PURGED";
+            localStorage.setItem("MORRIS_DATA_WIPED", "true");
+            setTimeout(() => {
+                processCommand('DOC-CASE-CLOSED-REPORT');
+            }, 3500);
+        }
     }
 }
-// [防御 3] Debugger 陷阱 (检测到调试工具打开时卡住页面)
-// 注意：这招非常狠，建议开发测试时先注释掉，上线前再打开！
-(function anonymous() {
-    setInterval(function() {
-        debugger;
-    }, 100); // 每100毫秒触发一次断点
-})();
 
-
+// 暴露函数
+window.initTwoDoorsPuzzle = initTwoDoorsPuzzle;
+window.selectGuard = selectGuard;
+window.askQuestion = askQuestion;
+window.chooseDoor = chooseDoor;
+window.processCommand = processCommand;

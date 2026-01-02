@@ -486,6 +486,74 @@ const db_evidence = {
         </div>
     </div>
 `,
+// 证物：韦若兰的日记残页
+    "EVI-NOTE-WEI-DIARY": `
+        <div style="background-color: #1a1a1a; padding: 20px; border-radius: 4px; border: 1px solid #333;">
+            <div style="border-bottom: 1px dashed #666; margin-bottom: 20px; padding-bottom: 10px; color: #888; font-size: 0.9em;">
+                <p style="margin: 2px 0;"><strong>[证物编号]：</strong> NOTE-HK-1939-08-11-W</p>
+                <p style="margin: 2px 0;"><strong>[物品名称]：</strong> 韦若兰的日记残页</p>
+                <p style="margin: 2px 0;"><strong>[发现位置]：</strong> 二楼东侧客房 - 书桌旁的地板上</p>
+                <p style="margin: 0;"><strong>[描述]：</strong> 一张从笔记本上撕下来的纸页，边缘参差不齐。字迹清秀但显得非常急促，墨迹在某些地方因为手抖而洇开。</p>
+            </div>
+
+            <div class="evidence-note" style="
+                font-family: 'Kaiti', '楷体', 'Courier New', serif; 
+                background-color: #fdf6e3; 
+                padding: 30px; 
+                border: 1px solid #d3c6a6; 
+                box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+                color: #2c3e50;
+                font-size: 1.05em;
+                line-height: 1.8;
+                transform: rotate(-1deg);
+                max-width: 90%;
+                margin: 0 auto;
+            ">
+                <div style="text-align: right; font-size: 0.8em; color: #7f8c8d; border-bottom: 2px solid #bdc3c7; margin-bottom: 20px;">
+                    1939年8月11日 凌晨 02:15
+                </div>
+
+                <p>门锁好了。插销也插上了。我还把那把沉重的橡木椅子顶在了门把手下面。</p>
+                
+                <p><strong>安世昌进不来的。</strong></p>
+
+                <p>那个痨病鬼身体并不强壮，甚至有点虚弱。想要暴力破门而入？绝对办不到。这扇门很结实，除非他有斧头（或者是陆伯达那种雇佣兵），否则他别想碰我一根手指头。</p>
+                
+                <p style="text-decoration: underline;">如果他想害我，一定是用狡计（Cunning），而不是暴力。</p>
+
+                <p><strong>推测他可能的手段：</strong></p>
+                
+                <ul style="list-style-type: circle; padding-left: 20px; margin-bottom: 20px;">
+                    <li style="margin-bottom: 8px;">
+                        <span style="color: #c0392b;"><strong>诈死/假消息：</strong></span> 他可能会跑回来，在门口大喊陆伯达或者鲍警官死了，骗我开门。就像菲利普说的那样。<em>（千万不能信！！）</em>
+                    </li>
+                    <li style="margin-bottom: 8px;">
+                        <span style="color: #c0392b;"><strong>苦肉计：</strong></span> 假装自己在外面受了重伤，呻吟着爬到我门口求救。<em>“韦小姐，救救我……”</em> —— <span style="font-weight: bold; border-bottom: 2px solid #c0392b;">让他去死！</span>
+                    </li>
+                    <li>
+                        <span style="color: #c0392b;"><strong>火攻（最危险）：</strong></span> 告诉我房子着火了……不，这很有可能成真。如果他把陆和鲍引出别墅，然后在楼下泼上汽油点火？
+                    </li>
+                </ul>
+
+                <p>那样我就像白痴一样，被禁锢在这个笼子里等死。</p>
+
+                <div style="border: 2px dashed #95a5a6; padding: 15px; margin: 20px 0; background-color: #fff9eb;">
+                    <p style="margin: 0 0 5px 0; font-weight: bold;">[逃生预案]</p>
+                    <p style="margin: 0;">窗口。只有窗口。</p>
+                    <p style="margin: 0;">我刚才看过了，下面是花坛，还有昨晚暴雨留下的泥泞。如果迫不得已跳下去，顶多摔伤脚踝，但这比被烧死或者被那个疯子抓住要好得多。</p>
+                </div>
+
+                <p style="font-size: 0.9em; color: #7f8c8d; font-style: italic; margin-top: 30px; border-top: 1px solid #bdc3c7; padding-top: 10px;">
+                    （一段潦草的笔迹，墨水似乎洇开了）<br><br>
+                    刚才是什么声音？好像是玻璃碎了？<br>
+                    听错了吗？还是幻觉？<br>
+                    既然那是陆伯达的枪，为什么安世昌会有？<br>
+                    不对……哪里不对劲……
+                </p>
+
+            </div>
+        </div>
+    `,
     // 在这里继续添加以 EVI- 开头的证物...
 
 
