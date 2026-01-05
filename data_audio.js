@@ -3754,7 +3754,7 @@ const db_audio = {
     // ... 上接 93-DI-LUNCH-PART1 ...
 
     // 录音 94：最后的午餐(下) (Dining Room) - [ALL]全体人员
-    "18-Dining-3--5-6-7-10": `
+    "18-Dining-3-5-6-7-10": `
         <div style="border: 1px dashed #b22222; padding: 10px; margin-bottom: 20px; color: #aaa; font-size: 0.9em; background-color: #1a0505;">
             <p style="margin: 2px 0;"><strong>[音频源]：</strong> 兵头洲公馆 - 一楼餐厅（Dining Room) - 水晶吊灯中央灯座内侧</p>
             <p style="margin: 0;"><strong>[状态]：</strong> 录制完成 - 信号清晰度：高（包含雷声、瓷器碰撞声与长段独白）</p>
@@ -4616,4 +4616,5 @@ const db_audio = {
             <div style="text-align: center; border-top: 1px dashed #444; margin-top: 10px; padding-top: 5px;">[录音结束]</div>
         </div>
     `,
+
 };
